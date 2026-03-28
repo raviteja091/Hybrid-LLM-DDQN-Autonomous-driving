@@ -108,8 +108,8 @@ The following figure shows the **expected learning behavior** of the hybrid syst
 
 ### 📊 Training Results
 
-![Hybrid LLM DDQN Results](results/training_summary.png)
-![Autonomous Driving Simulation](simulation.png)
+![Hybrid LLM DDQN Results](results/training.png)
+![Autonomous Driving Simulation](results/simulation.png)
 
 ---
 
