@@ -1,0 +1,14 @@
+<net>
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,3000.00,12.00" origBoundary="0.00,0.00,3000.00,12.00" proj="!"/>
+
+    <edge id="highway_start" from="J1" to="J2" priority="1">
+        <lane id="highway_start_0" index="0" speed="35" length="3000.00" disallow="pedestrian bicycle"/>
+        <lane id="highway_start_1" index="1" speed="35" length="3000.00" disallow="pedestrian bicycle"/>
+        <lane id="highway_start_2" index="2" speed="35" length="3000.00" disallow="pedestrian bicycle"/>
+        <lane id="highway_start_3" index="3" speed="35" length="3000.00" disallow="pedestrian bicycle"/>
+    </edge>
+
+    <junction id="J1" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00,0.00,12.00"/>
+    <junction id="J2" type="dead_end" x="3000.00" y="0.00" incLanes="highway_start_0 highway_start_1 highway_start_2 highway_start_3" intLanes="" shape="3000.00,0.00,3000.00,12.00"/>
+
+</net>

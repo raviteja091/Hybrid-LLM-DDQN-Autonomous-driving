@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+    <!-- RF Base Station Example -->
+    <poi id="RF_BS_0" x="0" y="10" type="rf_bs" color="yellow"/>
+    <poi id="RF_BS_1" x="800" y="10" type="rf_bs" color="yellow"/>
+    <!-- THz Base Station Example -->
+    <poi id="THz_BS_0" x="0" y="-10" type="thz_bs" color="red"/>
+    <poi id="THz_BS_1" x="200" y="-10" type="thz_bs" color="red"/>
+    <!-- Add all your base stations here -->
+</additional>

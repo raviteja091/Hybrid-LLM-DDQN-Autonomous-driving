@@ -1,0 +1,74 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int calcMinMoves(int n, const vector<string>& shuffled, const vector<string>& original) {
+    unordered_map<string,int> posInOriginal;
+    posInOriginal.reserve(n * 2);
+    for (int idx = 0; idx < n; ++idx) posInOriginal[original[idx]] = idx;
+
+    vector<int> targetIndex(n);
+    for (int i = 0; i < n; ++i) targetIndex[i] = posInOriginal.at(shuffled[i]);
+
+    struct Segment { int left; int right; int minIdx; int maxIdx; };
+    vector<Segment> segments;
+    for (int i = 0; i < n; ) {
+        int j = i;
+        while (j + 1 < n && targetIndex[j + 1] == targetIndex[j] + 1) ++j;
+        segments.push_back({i, j, targetIndex[i], targetIndex[j]});
+        i = j + 1;
+    }
+
+    int m = (int)segments.size();
+    if (m <= 1) return 0;
+
+    sort(segments.begin(), segments.end(), [](const Segment& a, const Segment& b){
+        if (a.minIdx != b.minIdx) return a.minIdx < b.minIdx;
+        return a.maxIdx < b.maxIdx;
+    });
+
+    vector<int> bestEnds;
+    for (const auto& s : segments) {
+        int lo = 0, hi = (int)bestEnds.size() - 1, can = -1;
+        while (lo <= hi) {
+            int mid = (lo + hi) >> 1;
+            if (bestEnds[mid] < s.minIdx) { can = mid; lo = mid + 1; }
+            else hi = mid - 1;
+        }
+        int newLen = can + 2;
+        if (newLen == 1) {
+            if (bestEnds.empty()) bestEnds.push_back(s.maxIdx);
+            else bestEnds[0] = min(bestEnds[0], s.maxIdx);
+        } else {
+            int pos = newLen - 1;
+            if (pos == (int)bestEnds.size()) bestEnds.push_back(s.maxIdx);
+            else bestEnds[pos] = min(bestEnds[pos], s.maxIdx);
+        }
+    }
+
+    int lisBlocks = (int)bestEnds.size();
+    return m - lisBlocks;
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n;
+    if (!(cin >> n)) return 0;
+    string label;
+    cin >> label;
+    string tmp;
+    getline(cin, tmp);
+
+    vector<string> shuffled(n);
+    for (int i = 0; i < n; ++i) getline(cin, shuffled[i]);
+
+    cin >> label;
+    getline(cin, tmp);
+
+    vector<string> original(n);
+    for (int i = 0; i < n; ++i) getline(cin, original[i]);
+
+    cout << calcMinMoves(n, shuffled, original) << '\n';
+    return 0;
+}

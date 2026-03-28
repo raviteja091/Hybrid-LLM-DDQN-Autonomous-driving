@@ -1,0 +1,13 @@
+# Virtual environment (DO NOT UPLOAD)
+Lib/
+Include/
+Scripts/
+share/
+pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output files
+results/

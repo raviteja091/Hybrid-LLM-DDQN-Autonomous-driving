@@ -1,0 +1,8 @@
+<routes>
+    <vType id="AV" accel="3.0" decel="6.0" sigma="0.5" length="5.0" minGap="2.5" maxSpeed="35" carFollowModel="IDM"/>
+    
+    <route id="r_highway" edges="highway_start"/>
+
+    <flow id="AV_flow" begin="0" end="3000" number="21" route="r_highway" type="AV" departLane="best" departSpeed="max" period="10"/>
+
+</routes>
