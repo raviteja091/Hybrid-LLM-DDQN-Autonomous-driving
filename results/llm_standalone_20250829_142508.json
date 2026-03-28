@@ -1,0 +1,2361 @@
+{
+  "agent_type": "LLM_Only",
+  "episodes": [
+    {
+      "episode": 1,
+      "total_reward": 44.30788866875687,
+      "steps": 40,
+      "collision": false,
+      "decisions": [
+        {
+          "step": 0,
+          "action": "SLOWER",
+          "reward": 1.2666666666666666,
+          "collision": false
+        },
+        {
+          "step": 1,
+          "action": "SLOWER",
+          "reward": 1.2666666666666666,
+          "collision": false
+        },
+        {
+          "step": 2,
+          "action": "IDLE",
+          "reward": 1.1008443135918946,
+          "collision": false
+        },
+        {
+          "step": 3,
+          "action": "SLOWER",
+          "reward": 1.0725072244133944,
+          "collision": false
+        },
+        {
+          "step": 4,
+          "action": "FASTER",
+          "reward": 1.1009980826025703,
+          "collision": false
+        },
+        {
+          "step": 5,
+          "action": "FASTER",
+          "reward": 1.1001705605739642,
+          "collision": false
+        },
+        {
+          "step": 6,
+          "action": "FASTER",
+          "reward": 1.1000291467953816,
+          "collision": false
+        },
+        {
+          "step": 7,
+          "action": "FASTER",
+          "reward": 1.100004980844408,
+          "collision": false
+        },
+        {
+          "step": 8,
+          "action": "FASTER",
+          "reward": 1.1000008511677077,
+          "collision": false
+        },
+        {
+          "step": 9,
+          "action": "IDLE",
+          "reward": 1.100000145454547,
+          "collision": false
+        },
+        {
+          "step": 10,
+          "action": "FASTER",
+          "reward": 1.1000000248564707,
+          "collision": false
+        },
+        {
+          "step": 11,
+          "action": "IDLE",
+          "reward": 1.1000000042476785,
+          "collision": false
+        },
+        {
+          "step": 12,
+          "action": "FASTER",
+          "reward": 1.1000000007258783,
+          "collision": false
+        },
+        {
+          "step": 13,
+          "action": "IDLE",
+          "reward": 1.100000000124044,
+          "collision": false
+        },
+        {
+          "step": 14,
+          "action": "FASTER",
+          "reward": 1.1000000000211976,
+          "collision": false
+        },
+        {
+          "step": 15,
+          "action": "IDLE",
+          "reward": 1.1000000000036223,
+          "collision": false
+        },
+        {
+          "step": 16,
+          "action": "FASTER",
+          "reward": 1.100000000000619,
+          "collision": false
+        },
+        {
+          "step": 17,
+          "action": "IDLE",
+          "reward": 1.1000000000001058,
+          "collision": false
+        },
+        {
+          "step": 18,
+          "action": "FASTER",
+          "reward": 1.100000000000018,
+          "collision": false
+        },
+        {
+          "step": 19,
+          "action": "IDLE",
+          "reward": 1.1000000000000032,
+          "collision": false
+        },
+        {
+          "step": 20,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 21,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 22,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 23,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 24,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 25,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 26,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 27,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 28,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 29,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 30,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 31,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 32,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 33,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 34,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 35,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 36,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 37,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 38,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 39,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        }
+      ],
+      "action_counts": {
+        "FASTER": 20,
+        "SLOWER": 3,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 17
+      }
+    },
+    {
+      "episode": 2,
+      "total_reward": 43.80788866875687,
+      "steps": 40,
+      "collision": false,
+      "decisions": [
+        {
+          "step": 0,
+          "action": "IDLE",
+          "reward": 1.0675109802585614,
+          "collision": false
+        },
+        {
+          "step": 1,
+          "action": "IDLE",
+          "reward": 1.0391738910800612,
+          "collision": false
+        },
+        {
+          "step": 2,
+          "action": "SLOWER",
+          "reward": 1.0343314159359036,
+          "collision": false
+        },
+        {
+          "step": 3,
+          "action": "FASTER",
+          "reward": 1.066837227240631,
+          "collision": false
+        },
+        {
+          "step": 4,
+          "action": "FASTER",
+          "reward": 1.1000291467953816,
+          "collision": false
+        },
+        {
+          "step": 5,
+          "action": "IDLE",
+          "reward": 1.100004980844408,
+          "collision": false
+        },
+        {
+          "step": 6,
+          "action": "FASTER",
+          "reward": 1.1000008511677077,
+          "collision": false
+        },
+        {
+          "step": 7,
+          "action": "IDLE",
+          "reward": 1.100000145454547,
+          "collision": false
+        },
+        {
+          "step": 8,
+          "action": "SLOWER",
+          "reward": 1.1000000248564707,
+          "collision": false
+        },
+        {
+          "step": 9,
+          "action": "IDLE",
+          "reward": 1.1000000042476785,
+          "collision": false
+        },
+        {
+          "step": 10,
+          "action": "FASTER",
+          "reward": 1.1000000007258783,
+          "collision": false
+        },
+        {
+          "step": 11,
+          "action": "FASTER",
+          "reward": 1.100000000124044,
+          "collision": false
+        },
+        {
+          "step": 12,
+          "action": "FASTER",
+          "reward": 1.1000000000211976,
+          "collision": false
+        },
+        {
+          "step": 13,
+          "action": "FASTER",
+          "reward": 1.1000000000036223,
+          "collision": false
+        },
+        {
+          "step": 14,
+          "action": "IDLE",
+          "reward": 1.100000000000619,
+          "collision": false
+        },
+        {
+          "step": 15,
+          "action": "IDLE",
+          "reward": 1.1000000000001058,
+          "collision": false
+        },
+        {
+          "step": 16,
+          "action": "FASTER",
+          "reward": 1.100000000000018,
+          "collision": false
+        },
+        {
+          "step": 17,
+          "action": "IDLE",
+          "reward": 1.1000000000000032,
+          "collision": false
+        },
+        {
+          "step": 18,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 19,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 20,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 21,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 22,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 23,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 24,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 25,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 26,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 27,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 28,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 29,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 30,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 31,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 32,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 33,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 34,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 35,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 36,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 37,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 38,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 39,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        }
+      ],
+      "action_counts": {
+        "FASTER": 22,
+        "SLOWER": 2,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 16
+      }
+    },
+    {
+      "episode": 3,
+      "total_reward": 44.87455533542353,
+      "steps": 40,
+      "collision": false,
+      "decisions": [
+        {
+          "step": 0,
+          "action": "FASTER",
+          "reward": 1.2333333333333334,
+          "collision": false
+        },
+        {
+          "step": 1,
+          "action": "SLOWER",
+          "reward": 1.2333333333333334,
+          "collision": false
+        },
+        {
+          "step": 2,
+          "action": "FASTER",
+          "reward": 1.2666666666666666,
+          "collision": false
+        },
+        {
+          "step": 3,
+          "action": "SLOWER",
+          "reward": 1.2666666666666666,
+          "collision": false
+        },
+        {
+          "step": 4,
+          "action": "SLOWER",
+          "reward": 1.2666666666666666,
+          "collision": false
+        },
+        {
+          "step": 5,
+          "action": "SLOWER",
+          "reward": 1.2666666666666666,
+          "collision": false
+        },
+        {
+          "step": 6,
+          "action": "IDLE",
+          "reward": 1.1008443135918946,
+          "collision": false
+        },
+        {
+          "step": 7,
+          "action": "IDLE",
+          "reward": 1.0725072244133944,
+          "collision": false
+        },
+        {
+          "step": 8,
+          "action": "IDLE",
+          "reward": 1.0676647492692368,
+          "collision": false
+        },
+        {
+          "step": 9,
+          "action": "FASTER",
+          "reward": 1.1001705605739642,
+          "collision": false
+        },
+        {
+          "step": 10,
+          "action": "FASTER",
+          "reward": 1.1000291467953816,
+          "collision": false
+        },
+        {
+          "step": 11,
+          "action": "FASTER",
+          "reward": 1.100004980844408,
+          "collision": false
+        },
+        {
+          "step": 12,
+          "action": "IDLE",
+          "reward": 1.1000008511677077,
+          "collision": false
+        },
+        {
+          "step": 13,
+          "action": "FASTER",
+          "reward": 1.100000145454547,
+          "collision": false
+        },
+        {
+          "step": 14,
+          "action": "IDLE",
+          "reward": 1.1000000248564707,
+          "collision": false
+        },
+        {
+          "step": 15,
+          "action": "IDLE",
+          "reward": 1.1000000042476785,
+          "collision": false
+        },
+        {
+          "step": 16,
+          "action": "FASTER",
+          "reward": 1.1000000007258783,
+          "collision": false
+        },
+        {
+          "step": 17,
+          "action": "IDLE",
+          "reward": 1.100000000124044,
+          "collision": false
+        },
+        {
+          "step": 18,
+          "action": "FASTER",
+          "reward": 1.1000000000211976,
+          "collision": false
+        },
+        {
+          "step": 19,
+          "action": "IDLE",
+          "reward": 1.1000000000036223,
+          "collision": false
+        },
+        {
+          "step": 20,
+          "action": "FASTER",
+          "reward": 1.100000000000619,
+          "collision": false
+        },
+        {
+          "step": 21,
+          "action": "IDLE",
+          "reward": 1.1000000000001058,
+          "collision": false
+        },
+        {
+          "step": 22,
+          "action": "FASTER",
+          "reward": 1.100000000000018,
+          "collision": false
+        },
+        {
+          "step": 23,
+          "action": "FASTER",
+          "reward": 1.1000000000000032,
+          "collision": false
+        },
+        {
+          "step": 24,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 25,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 26,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 27,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 28,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 29,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 30,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 31,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 32,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 33,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 34,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 35,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 36,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 37,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 38,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 39,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        }
+      ],
+      "action_counts": {
+        "FASTER": 21,
+        "SLOWER": 4,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 15
+      }
+    },
+    {
+      "episode": 4,
+      "total_reward": 44.87455533542353,
+      "steps": 40,
+      "collision": false,
+      "decisions": [
+        {
+          "step": 0,
+          "action": "SLOWER",
+          "reward": 1.2,
+          "collision": false
+        },
+        {
+          "step": 1,
+          "action": "SLOWER",
+          "reward": 1.2,
+          "collision": false
+        },
+        {
+          "step": 2,
+          "action": "FASTER",
+          "reward": 1.2333333333333334,
+          "collision": false
+        },
+        {
+          "step": 3,
+          "action": "SLOWER",
+          "reward": 1.2333333333333334,
+          "collision": false
+        },
+        {
+          "step": 4,
+          "action": "FASTER",
+          "reward": 1.2666666666666666,
+          "collision": false
+        },
+        {
+          "step": 5,
+          "action": "FASTER",
+          "reward": 1.3,
+          "collision": false
+        },
+        {
+          "step": 6,
+          "action": "IDLE",
+          "reward": 1.134177646925228,
+          "collision": false
+        },
+        {
+          "step": 7,
+          "action": "IDLE",
+          "reward": 1.1058405577467278,
+          "collision": false
+        },
+        {
+          "step": 8,
+          "action": "FASTER",
+          "reward": 1.1009980826025703,
+          "collision": false
+        },
+        {
+          "step": 9,
+          "action": "IDLE",
+          "reward": 1.1001705605739642,
+          "collision": false
+        },
+        {
+          "step": 10,
+          "action": "FASTER",
+          "reward": 1.1000291467953816,
+          "collision": false
+        },
+        {
+          "step": 11,
+          "action": "IDLE",
+          "reward": 1.100004980844408,
+          "collision": false
+        },
+        {
+          "step": 12,
+          "action": "FASTER",
+          "reward": 1.1000008511677077,
+          "collision": false
+        },
+        {
+          "step": 13,
+          "action": "FASTER",
+          "reward": 1.100000145454547,
+          "collision": false
+        },
+        {
+          "step": 14,
+          "action": "IDLE",
+          "reward": 1.1000000248564707,
+          "collision": false
+        },
+        {
+          "step": 15,
+          "action": "IDLE",
+          "reward": 1.1000000042476785,
+          "collision": false
+        },
+        {
+          "step": 16,
+          "action": "FASTER",
+          "reward": 1.1000000007258783,
+          "collision": false
+        },
+        {
+          "step": 17,
+          "action": "FASTER",
+          "reward": 1.100000000124044,
+          "collision": false
+        },
+        {
+          "step": 18,
+          "action": "IDLE",
+          "reward": 1.1000000000211976,
+          "collision": false
+        },
+        {
+          "step": 19,
+          "action": "FASTER",
+          "reward": 1.1000000000036223,
+          "collision": false
+        },
+        {
+          "step": 20,
+          "action": "IDLE",
+          "reward": 1.100000000000619,
+          "collision": false
+        },
+        {
+          "step": 21,
+          "action": "FASTER",
+          "reward": 1.1000000000001058,
+          "collision": false
+        },
+        {
+          "step": 22,
+          "action": "FASTER",
+          "reward": 1.100000000000018,
+          "collision": false
+        },
+        {
+          "step": 23,
+          "action": "SLOWER",
+          "reward": 1.1000000000000032,
+          "collision": false
+        },
+        {
+          "step": 24,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 25,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 26,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 27,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 28,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 29,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 30,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 31,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 32,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 33,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 34,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 35,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 36,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 37,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 38,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 39,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        }
+      ],
+      "action_counts": {
+        "FASTER": 19,
+        "SLOWER": 4,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 17
+      }
+    },
+    {
+      "episode": 5,
+      "total_reward": 44.0412220020902,
+      "steps": 40,
+      "collision": false,
+      "decisions": [
+        {
+          "step": 0,
+          "action": "IDLE",
+          "reward": 1.134177646925228,
+          "collision": false
+        },
+        {
+          "step": 1,
+          "action": "IDLE",
+          "reward": 1.1058405577467278,
+          "collision": false
+        },
+        {
+          "step": 2,
+          "action": "SLOWER",
+          "reward": 1.1009980826025703,
+          "collision": false
+        },
+        {
+          "step": 3,
+          "action": "IDLE",
+          "reward": 1.1001705605739642,
+          "collision": false
+        },
+        {
+          "step": 4,
+          "action": "FASTER",
+          "reward": 1.1000291467953816,
+          "collision": false
+        },
+        {
+          "step": 5,
+          "action": "FASTER",
+          "reward": 1.100004980844408,
+          "collision": false
+        },
+        {
+          "step": 6,
+          "action": "FASTER",
+          "reward": 1.1000008511677077,
+          "collision": false
+        },
+        {
+          "step": 7,
+          "action": "FASTER",
+          "reward": 1.100000145454547,
+          "collision": false
+        },
+        {
+          "step": 8,
+          "action": "IDLE",
+          "reward": 1.1000000248564707,
+          "collision": false
+        },
+        {
+          "step": 9,
+          "action": "IDLE",
+          "reward": 1.1000000042476785,
+          "collision": false
+        },
+        {
+          "step": 10,
+          "action": "FASTER",
+          "reward": 1.1000000007258783,
+          "collision": false
+        },
+        {
+          "step": 11,
+          "action": "FASTER",
+          "reward": 1.100000000124044,
+          "collision": false
+        },
+        {
+          "step": 12,
+          "action": "FASTER",
+          "reward": 1.1000000000211976,
+          "collision": false
+        },
+        {
+          "step": 13,
+          "action": "FASTER",
+          "reward": 1.1000000000036223,
+          "collision": false
+        },
+        {
+          "step": 14,
+          "action": "FASTER",
+          "reward": 1.100000000000619,
+          "collision": false
+        },
+        {
+          "step": 15,
+          "action": "IDLE",
+          "reward": 1.1000000000001058,
+          "collision": false
+        },
+        {
+          "step": 16,
+          "action": "IDLE",
+          "reward": 1.100000000000018,
+          "collision": false
+        },
+        {
+          "step": 17,
+          "action": "FASTER",
+          "reward": 1.1000000000000032,
+          "collision": false
+        },
+        {
+          "step": 18,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 19,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 20,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 21,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 22,
+          "action": "SLOWER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 23,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 24,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 25,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 26,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 27,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 28,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 29,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 30,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 31,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 32,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 33,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 34,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 35,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 36,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 37,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 38,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 39,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        }
+      ],
+      "action_counts": {
+        "FASTER": 23,
+        "SLOWER": 2,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 15
+      }
+    },
+    {
+      "episode": 6,
+      "total_reward": 3.8333333333333335,
+      "steps": 4,
+      "collision": true,
+      "decisions": [
+        {
+          "step": 0,
+          "action": "FASTER",
+          "reward": 1.2333333333333334,
+          "collision": false
+        },
+        {
+          "step": 1,
+          "action": "SLOWER",
+          "reward": 1.2333333333333334,
+          "collision": false
+        },
+        {
+          "step": 2,
+          "action": "FASTER",
+          "reward": 1.2666666666666666,
+          "collision": false
+        },
+        {
+          "step": 3,
+          "action": "FASTER",
+          "reward": 0.09999999999999998,
+          "collision": true
+        }
+      ],
+      "action_counts": {
+        "FASTER": 3,
+        "SLOWER": 1,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 0
+      }
+    },
+    {
+      "episode": 7,
+      "total_reward": 44.30788866875687,
+      "steps": 40,
+      "collision": false,
+      "decisions": [
+        {
+          "step": 0,
+          "action": "SLOWER",
+          "reward": 1.2666666666666666,
+          "collision": false
+        },
+        {
+          "step": 1,
+          "action": "SLOWER",
+          "reward": 1.2666666666666666,
+          "collision": false
+        },
+        {
+          "step": 2,
+          "action": "IDLE",
+          "reward": 1.1008443135918946,
+          "collision": false
+        },
+        {
+          "step": 3,
+          "action": "SLOWER",
+          "reward": 1.0725072244133944,
+          "collision": false
+        },
+        {
+          "step": 4,
+          "action": "FASTER",
+          "reward": 1.1009980826025703,
+          "collision": false
+        },
+        {
+          "step": 5,
+          "action": "FASTER",
+          "reward": 1.1001705605739642,
+          "collision": false
+        },
+        {
+          "step": 6,
+          "action": "IDLE",
+          "reward": 1.1000291467953816,
+          "collision": false
+        },
+        {
+          "step": 7,
+          "action": "IDLE",
+          "reward": 1.100004980844408,
+          "collision": false
+        },
+        {
+          "step": 8,
+          "action": "IDLE",
+          "reward": 1.1000008511677077,
+          "collision": false
+        },
+        {
+          "step": 9,
+          "action": "IDLE",
+          "reward": 1.100000145454547,
+          "collision": false
+        },
+        {
+          "step": 10,
+          "action": "IDLE",
+          "reward": 1.1000000248564707,
+          "collision": false
+        },
+        {
+          "step": 11,
+          "action": "IDLE",
+          "reward": 1.1000000042476785,
+          "collision": false
+        },
+        {
+          "step": 12,
+          "action": "IDLE",
+          "reward": 1.1000000007258783,
+          "collision": false
+        },
+        {
+          "step": 13,
+          "action": "IDLE",
+          "reward": 1.100000000124044,
+          "collision": false
+        },
+        {
+          "step": 14,
+          "action": "IDLE",
+          "reward": 1.1000000000211976,
+          "collision": false
+        },
+        {
+          "step": 15,
+          "action": "IDLE",
+          "reward": 1.1000000000036223,
+          "collision": false
+        },
+        {
+          "step": 16,
+          "action": "IDLE",
+          "reward": 1.100000000000619,
+          "collision": false
+        },
+        {
+          "step": 17,
+          "action": "IDLE",
+          "reward": 1.1000000000001058,
+          "collision": false
+        },
+        {
+          "step": 18,
+          "action": "IDLE",
+          "reward": 1.100000000000018,
+          "collision": false
+        },
+        {
+          "step": 19,
+          "action": "IDLE",
+          "reward": 1.1000000000000032,
+          "collision": false
+        },
+        {
+          "step": 20,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 21,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 22,
+          "action": "SLOWER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 23,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 24,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 25,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 26,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 27,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 28,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 29,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 30,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 31,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 32,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 33,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 34,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 35,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 36,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 37,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 38,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 39,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        }
+      ],
+      "action_counts": {
+        "FASTER": 2,
+        "SLOWER": 4,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 34
+      }
+    },
+    {
+      "episode": 8,
+      "total_reward": 43.6412220020902,
+      "steps": 40,
+      "collision": false,
+      "decisions": [
+        {
+          "step": 0,
+          "action": "IDLE",
+          "reward": 1.1008443135918946,
+          "collision": false
+        },
+        {
+          "step": 1,
+          "action": "SLOWER",
+          "reward": 1.0725072244133944,
+          "collision": false
+        },
+        {
+          "step": 2,
+          "action": "SLOWER",
+          "reward": 1.0676647492692368,
+          "collision": false
+        },
+        {
+          "step": 3,
+          "action": "IDLE",
+          "reward": 1.066837227240631,
+          "collision": false
+        },
+        {
+          "step": 4,
+          "action": "IDLE",
+          "reward": 1.0666958134620483,
+          "collision": false
+        },
+        {
+          "step": 5,
+          "action": "IDLE",
+          "reward": 1.0666716475110747,
+          "collision": false
+        },
+        {
+          "step": 6,
+          "action": "IDLE",
+          "reward": 1.0666675178343745,
+          "collision": false
+        },
+        {
+          "step": 7,
+          "action": "IDLE",
+          "reward": 1.0666668121212135,
+          "collision": false
+        },
+        {
+          "step": 8,
+          "action": "IDLE",
+          "reward": 1.0666666915231373,
+          "collision": false
+        },
+        {
+          "step": 9,
+          "action": "IDLE",
+          "reward": 1.066666670914345,
+          "collision": false
+        },
+        {
+          "step": 10,
+          "action": "IDLE",
+          "reward": 1.0666666673925451,
+          "collision": false
+        },
+        {
+          "step": 11,
+          "action": "IDLE",
+          "reward": 1.0666666667907108,
+          "collision": false
+        },
+        {
+          "step": 12,
+          "action": "FASTER",
+          "reward": 1.1000000000211976,
+          "collision": false
+        },
+        {
+          "step": 13,
+          "action": "FASTER",
+          "reward": 1.1000000000036223,
+          "collision": false
+        },
+        {
+          "step": 14,
+          "action": "IDLE",
+          "reward": 1.100000000000619,
+          "collision": false
+        },
+        {
+          "step": 15,
+          "action": "IDLE",
+          "reward": 1.1000000000001058,
+          "collision": false
+        },
+        {
+          "step": 16,
+          "action": "IDLE",
+          "reward": 1.100000000000018,
+          "collision": false
+        },
+        {
+          "step": 17,
+          "action": "IDLE",
+          "reward": 1.1000000000000032,
+          "collision": false
+        },
+        {
+          "step": 18,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 19,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 20,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 21,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 22,
+          "action": "SLOWER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 23,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 24,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 25,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 26,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 27,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 28,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 29,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 30,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 31,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 32,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 33,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 34,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 35,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 36,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 37,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 38,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 39,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        }
+      ],
+      "action_counts": {
+        "FASTER": 2,
+        "SLOWER": 3,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 35
+      }
+    },
+    {
+      "episode": 9,
+      "total_reward": 43.607888668756864,
+      "steps": 40,
+      "collision": false,
+      "decisions": [
+        {
+          "step": 0,
+          "action": "IDLE",
+          "reward": 1.1008443135918946,
+          "collision": false
+        },
+        {
+          "step": 1,
+          "action": "SLOWER",
+          "reward": 1.0725072244133944,
+          "collision": false
+        },
+        {
+          "step": 2,
+          "action": "IDLE",
+          "reward": 1.0676647492692368,
+          "collision": false
+        },
+        {
+          "step": 3,
+          "action": "IDLE",
+          "reward": 1.066837227240631,
+          "collision": false
+        },
+        {
+          "step": 4,
+          "action": "SLOWER",
+          "reward": 1.0666958134620483,
+          "collision": false
+        },
+        {
+          "step": 5,
+          "action": "SLOWER",
+          "reward": 1.0666716475110747,
+          "collision": false
+        },
+        {
+          "step": 6,
+          "action": "IDLE",
+          "reward": 1.0666675178343745,
+          "collision": false
+        },
+        {
+          "step": 7,
+          "action": "IDLE",
+          "reward": 1.0666668121212135,
+          "collision": false
+        },
+        {
+          "step": 8,
+          "action": "SLOWER",
+          "reward": 1.0666666915231373,
+          "collision": false
+        },
+        {
+          "step": 9,
+          "action": "IDLE",
+          "reward": 1.066666670914345,
+          "collision": false
+        },
+        {
+          "step": 10,
+          "action": "SLOWER",
+          "reward": 1.0666666673925451,
+          "collision": false
+        },
+        {
+          "step": 11,
+          "action": "SLOWER",
+          "reward": 1.0666666667907108,
+          "collision": false
+        },
+        {
+          "step": 12,
+          "action": "IDLE",
+          "reward": 1.0666666666878644,
+          "collision": false
+        },
+        {
+          "step": 13,
+          "action": "FASTER",
+          "reward": 1.1000000000036223,
+          "collision": false
+        },
+        {
+          "step": 14,
+          "action": "IDLE",
+          "reward": 1.100000000000619,
+          "collision": false
+        },
+        {
+          "step": 15,
+          "action": "IDLE",
+          "reward": 1.1000000000001058,
+          "collision": false
+        },
+        {
+          "step": 16,
+          "action": "IDLE",
+          "reward": 1.100000000000018,
+          "collision": false
+        },
+        {
+          "step": 17,
+          "action": "IDLE",
+          "reward": 1.1000000000000032,
+          "collision": false
+        },
+        {
+          "step": 18,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 19,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 20,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 21,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 22,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 23,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 24,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 25,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 26,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 27,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 28,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 29,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 30,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 31,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 32,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 33,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 34,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 35,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 36,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 37,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 38,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 39,
+          "action": "FASTER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        }
+      ],
+      "action_counts": {
+        "FASTER": 3,
+        "SLOWER": 6,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 31
+      }
+    },
+    {
+      "episode": 10,
+      "total_reward": 44.0412220020902,
+      "steps": 40,
+      "collision": false,
+      "decisions": [
+        {
+          "step": 0,
+          "action": "IDLE",
+          "reward": 1.134177646925228,
+          "collision": false
+        },
+        {
+          "step": 1,
+          "action": "SLOWER",
+          "reward": 1.1058405577467278,
+          "collision": false
+        },
+        {
+          "step": 2,
+          "action": "IDLE",
+          "reward": 1.1009980826025703,
+          "collision": false
+        },
+        {
+          "step": 3,
+          "action": "IDLE",
+          "reward": 1.1001705605739642,
+          "collision": false
+        },
+        {
+          "step": 4,
+          "action": "IDLE",
+          "reward": 1.1000291467953816,
+          "collision": false
+        },
+        {
+          "step": 5,
+          "action": "IDLE",
+          "reward": 1.100004980844408,
+          "collision": false
+        },
+        {
+          "step": 6,
+          "action": "FASTER",
+          "reward": 1.1000008511677077,
+          "collision": false
+        },
+        {
+          "step": 7,
+          "action": "IDLE",
+          "reward": 1.100000145454547,
+          "collision": false
+        },
+        {
+          "step": 8,
+          "action": "IDLE",
+          "reward": 1.1000000248564707,
+          "collision": false
+        },
+        {
+          "step": 9,
+          "action": "IDLE",
+          "reward": 1.1000000042476785,
+          "collision": false
+        },
+        {
+          "step": 10,
+          "action": "IDLE",
+          "reward": 1.1000000007258783,
+          "collision": false
+        },
+        {
+          "step": 11,
+          "action": "IDLE",
+          "reward": 1.100000000124044,
+          "collision": false
+        },
+        {
+          "step": 12,
+          "action": "IDLE",
+          "reward": 1.1000000000211976,
+          "collision": false
+        },
+        {
+          "step": 13,
+          "action": "IDLE",
+          "reward": 1.1000000000036223,
+          "collision": false
+        },
+        {
+          "step": 14,
+          "action": "IDLE",
+          "reward": 1.100000000000619,
+          "collision": false
+        },
+        {
+          "step": 15,
+          "action": "IDLE",
+          "reward": 1.1000000000001058,
+          "collision": false
+        },
+        {
+          "step": 16,
+          "action": "IDLE",
+          "reward": 1.100000000000018,
+          "collision": false
+        },
+        {
+          "step": 17,
+          "action": "IDLE",
+          "reward": 1.1000000000000032,
+          "collision": false
+        },
+        {
+          "step": 18,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 19,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 20,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 21,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 22,
+          "action": "SLOWER",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 23,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 24,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 25,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 26,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 27,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 28,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 29,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 30,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 31,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 32,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 33,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 34,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 35,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 36,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 37,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 38,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        },
+        {
+          "step": 39,
+          "action": "IDLE",
+          "reward": 1.1000000000000005,
+          "collision": false
+        }
+      ],
+      "action_counts": {
+        "FASTER": 1,
+        "SLOWER": 2,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 37
+      }
+    }
+  ],
+  "statistics": {
+    "avg_reward": 40.13376646854785,
+    "std_reward": 12.107541274207462,
+    "max_reward": 44.87455533542353,
+    "min_reward": 3.8333333333333335,
+    "collision_rate": 0.1,
+    "avg_steps": 36.4,
+    "action_diversity": {
+      "FASTER": 116,
+      "SLOWER": 31,
+      "LANE_LEFT": 0,
+      "LANE_RIGHT": 0,
+      "IDLE": 217
+    },
+    "llm_stats": {
+      "decisions": 364,
+      "collisions": 1,
+      "collision_rate": 0.0027472527472527475,
+      "good_ex": 363,
+      "bad_ex": 1
+    }
+  }
+}

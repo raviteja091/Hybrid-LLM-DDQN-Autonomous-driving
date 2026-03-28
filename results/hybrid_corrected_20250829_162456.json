@@ -1,0 +1,3155 @@
+{
+  "agent_type": "Hybrid_Corrected",
+  "episodes": [
+    {
+      "episode": 1,
+      "total_reward": 452395.0680875886,
+      "ad_reward": 2.5797037037037036,
+      "v2i_reward": 452392.4883838849,
+      "steps": 3,
+      "collision": true,
+      "handovers": 0,
+      "decisions": [
+        {
+          "step": 0,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.2333333333333334,
+          "communication_reward": 207096.13945128777,
+          "total_reward": 207097.3727846211,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 1,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.2666666666666666,
+          "communication_reward": 150244.65833184434,
+          "total_reward": 150245.924998511,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 2,
+          "ad_action": "SLOWER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 0.07970370370370372,
+          "communication_reward": 95051.69060075276,
+          "total_reward": 95051.77030445646,
+          "collision": true,
+          "handover": false
+        }
+      ],
+      "ad_action_counts": {
+        "FASTER": 2,
+        "SLOWER": 1,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 0
+      },
+      "v2i_action_counts": {
+        "max_weighted_rate": 0,
+        "adaptive_handover": 0,
+        "max_data_rate": 3
+      }
+    },
+    {
+      "episode": 2,
+      "total_reward": 858497.9845215997,
+      "ad_reward": 14.379703703703706,
+      "v2i_reward": 858483.6048178958,
+      "steps": 12,
+      "collision": true,
+      "handovers": 1,
+      "decisions": [
+        {
+          "step": 0,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.2666666666666666,
+          "communication_reward": 173803.98753403514,
+          "total_reward": 173805.2542007018,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 1,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 121042.05704027951,
+          "total_reward": 121043.35704027952,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 2,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 111919.01824864185,
+          "total_reward": 111920.31824864185,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 3,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.3,
+          "communication_reward": 111564.76008538585,
+          "total_reward": 111566.06008538585,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 4,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.3,
+          "communication_reward": 104564.3605145461,
+          "total_reward": 104565.6605145461,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 5,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 49445.00909988297,
+          "total_reward": 49446.30909988297,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 6,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 43941.982603936245,
+          "total_reward": 43943.28260393625,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 7,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 19769.011907241576,
+          "total_reward": 19770.311907241576,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 8,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 40057.63377214009,
+          "total_reward": 40058.933772140095,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 9,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 33888.57743422803,
+          "total_reward": 33889.87743422803,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 10,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.3,
+          "communication_reward": 19204.039411127364,
+          "total_reward": 19205.339411127363,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 11,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 0.11303703703703705,
+          "communication_reward": 29283.167166451098,
+          "total_reward": 29283.280203488135,
+          "collision": true,
+          "handover": true
+        }
+      ],
+      "ad_action_counts": {
+        "FASTER": 12,
+        "SLOWER": 0,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 0
+      },
+      "v2i_action_counts": {
+        "max_weighted_rate": 4,
+        "adaptive_handover": 3,
+        "max_data_rate": 5
+      }
+    },
+    {
+      "episode": 3,
+      "total_reward": 1037919.4225985501,
+      "ad_reward": 22.10000000000001,
+      "v2i_reward": 1037897.3225985499,
+      "steps": 18,
+      "collision": true,
+      "handovers": 2,
+      "decisions": [
+        {
+          "step": 0,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.2333333333333334,
+          "communication_reward": 268082.94952642196,
+          "total_reward": 268084.1828597553,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 1,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.2666666666666666,
+          "communication_reward": 106097.33238586529,
+          "total_reward": 106098.59905253195,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 2,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 93033.52891720305,
+          "total_reward": 93034.82891720305,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 3,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 34804.566489756246,
+          "total_reward": 34805.86648975625,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 4,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.3,
+          "communication_reward": 30954.19281481154,
+          "total_reward": 30955.49281481154,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 5,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 56288.79437109764,
+          "total_reward": 56290.09437109764,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 6,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 26698.195844733164,
+          "total_reward": 26699.495844733163,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 7,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 21606.959447847345,
+          "total_reward": 21608.259447847344,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 8,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 33700.40399651576,
+          "total_reward": 33701.70399651576,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 9,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.3,
+          "communication_reward": 52660.50955347887,
+          "total_reward": 52661.80955347887,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 10,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 19818.711237287665,
+          "total_reward": 19820.011237287665,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 11,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.3,
+          "communication_reward": 42013.057768809114,
+          "total_reward": 42014.35776880912,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 12,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 43528.4421352116,
+          "total_reward": 43529.7421352116,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 13,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 4490.828045589423,
+          "total_reward": 4492.128045589423,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 14,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.3,
+          "communication_reward": 13295.369826227476,
+          "total_reward": 13296.669826227475,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 15,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.3,
+          "communication_reward": 64943.39984648408,
+          "total_reward": 64944.69984648408,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 16,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 45943.04316173197,
+          "total_reward": 45944.34316173197,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 17,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 0.09999999999999998,
+          "communication_reward": 79937.03722947782,
+          "total_reward": 79937.13722947783,
+          "collision": true,
+          "handover": false
+        }
+      ],
+      "ad_action_counts": {
+        "FASTER": 18,
+        "SLOWER": 0,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 0
+      },
+      "v2i_action_counts": {
+        "max_weighted_rate": 4,
+        "adaptive_handover": 5,
+        "max_data_rate": 9
+      }
+    },
+    {
+      "episode": 4,
+      "total_reward": 2708554.0668947916,
+      "ad_reward": 43.97455533542353,
+      "v2i_reward": 2708510.092339455,
+      "steps": 40,
+      "collision": false,
+      "handovers": 6,
+      "decisions": [
+        {
+          "step": 0,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1008443135918946,
+          "communication_reward": 321966.2328244904,
+          "total_reward": 321967.33366880397,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 1,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0725072244133944,
+          "communication_reward": 119060.20166334606,
+          "total_reward": 119061.27417057047,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 2,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1009980826025703,
+          "communication_reward": 121776.50908345092,
+          "total_reward": 121777.61008153352,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 3,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1001705605739642,
+          "communication_reward": 74103.1525491667,
+          "total_reward": 74104.25271972727,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 4,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000291467953816,
+          "communication_reward": 45723.30876068906,
+          "total_reward": 45724.408789835856,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 5,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.100004980844408,
+          "communication_reward": 68146.54459044318,
+          "total_reward": 68147.64459542403,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 6,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000008511677077,
+          "communication_reward": 64812.58267973159,
+          "total_reward": 64813.68268058276,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 7,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.100000145454547,
+          "communication_reward": 47769.95247730184,
+          "total_reward": 47771.052477447294,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 8,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000248564707,
+          "communication_reward": 20915.520064889086,
+          "total_reward": 20916.620064913943,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 9,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000042476785,
+          "communication_reward": 75593.50859681863,
+          "total_reward": 75594.60859682287,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 10,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000007258783,
+          "communication_reward": 48033.24348139988,
+          "total_reward": 48034.3434814006,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 11,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.100000000124044,
+          "communication_reward": 35403.97830048081,
+          "total_reward": 35405.078300480935,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 12,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000211976,
+          "communication_reward": 24685.568939833538,
+          "total_reward": 24686.66893983356,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 13,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000036223,
+          "communication_reward": 22949.334564418583,
+          "total_reward": 22950.434564418585,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 14,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.100000000000619,
+          "communication_reward": 16156.36166986929,
+          "total_reward": 16157.46166986929,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 15,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000001058,
+          "communication_reward": 19426.89855627867,
+          "total_reward": 19427.998556278668,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 16,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.100000000000018,
+          "communication_reward": 36530.01137519652,
+          "total_reward": 36531.11137519652,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 17,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000032,
+          "communication_reward": 39084.64684596547,
+          "total_reward": 39085.74684596547,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 18,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 24180.729929572957,
+          "total_reward": 24181.829929572956,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 19,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 27216.306699764005,
+          "total_reward": 27217.406699764004,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 20,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 27201.127799957336,
+          "total_reward": 27202.227799957334,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 21,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 40803.0277175598,
+          "total_reward": 40804.1277175598,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 22,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 64070.61542351708,
+          "total_reward": 64071.71542351708,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 23,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 13893.472227926683,
+          "total_reward": 13894.572227926683,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 24,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 56315.526105156445,
+          "total_reward": 56316.62610515644,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 25,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 38200.82671098759,
+          "total_reward": 38201.92671098759,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 26,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 10704.616790746426,
+          "total_reward": 10705.716790746426,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 27,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 57403.46603552475,
+          "total_reward": 57404.566035524746,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 28,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 32979.52839021007,
+          "total_reward": 32980.62839021007,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 29,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 91999.0265470385,
+          "total_reward": 92000.12654703851,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 30,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 104007.56055680953,
+          "total_reward": 104008.66055680954,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 31,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 170388.85033903437,
+          "total_reward": 170389.95033903437,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 32,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 160311.27710297646,
+          "total_reward": 160312.37710297646,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 33,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 210806.57635955818,
+          "total_reward": 210807.6763595582,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 34,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 65815.74947024247,
+          "total_reward": 65816.84947024248,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 35,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 122434.55098803963,
+          "total_reward": 122435.65098803963,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 36,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 59665.917859964684,
+          "total_reward": 59667.01785996468,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 37,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 28651.43602082462,
+          "total_reward": 28652.53602082462,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 38,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 66148.37306127959,
+          "total_reward": 66149.4730612796,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 39,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 33173.97317899449,
+          "total_reward": 33175.07317899449,
+          "collision": false,
+          "handover": false
+        }
+      ],
+      "ad_action_counts": {
+        "FASTER": 33,
+        "SLOWER": 0,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 7
+      },
+      "v2i_action_counts": {
+        "max_weighted_rate": 19,
+        "adaptive_handover": 11,
+        "max_data_rate": 10
+      }
+    },
+    {
+      "episode": 5,
+      "total_reward": 558860.1623558021,
+      "ad_reward": 5.5,
+      "v2i_reward": 558854.662355802,
+      "steps": 5,
+      "collision": true,
+      "handovers": 1,
+      "decisions": [
+        {
+          "step": 0,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.3,
+          "communication_reward": 239581.0663691597,
+          "total_reward": 239582.3663691597,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 1,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.3,
+          "communication_reward": 103120.77059645177,
+          "total_reward": 103122.07059645177,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 2,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 107864.28079949996,
+          "total_reward": 107865.58079949996,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 3,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 70473.85535873137,
+          "total_reward": 70475.15535873137,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 4,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 0.29999999999999993,
+          "communication_reward": 37814.68923195932,
+          "total_reward": 37814.98923195932,
+          "collision": true,
+          "handover": false
+        }
+      ],
+      "ad_action_counts": {
+        "FASTER": 5,
+        "SLOWER": 0,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 0
+      },
+      "v2i_action_counts": {
+        "max_weighted_rate": 1,
+        "adaptive_handover": 3,
+        "max_data_rate": 1
+      }
+    },
+    {
+      "episode": 6,
+      "total_reward": 3216977.449351992,
+      "ad_reward": 43.607888668756864,
+      "v2i_reward": 3216933.8414633228,
+      "steps": 40,
+      "collision": false,
+      "handovers": 8,
+      "decisions": [
+        {
+          "step": 0,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1008443135918946,
+          "communication_reward": 351509.3244305587,
+          "total_reward": 351510.4252748723,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 1,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0725072244133944,
+          "communication_reward": 143422.89667350144,
+          "total_reward": 143423.96918072586,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 2,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0676647492692368,
+          "communication_reward": 127450.25881100987,
+          "total_reward": 127451.32647575914,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 3,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.066837227240631,
+          "communication_reward": 146737.30341636227,
+          "total_reward": 146738.3702535895,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 4,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.0666958134620483,
+          "communication_reward": 91199.47053564357,
+          "total_reward": 91200.53723145704,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 5,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0666716475110747,
+          "communication_reward": 79853.93014570698,
+          "total_reward": 79854.99681735449,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 6,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0666675178343745,
+          "communication_reward": 138945.1780617252,
+          "total_reward": 138946.24472924302,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 7,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666668121212135,
+          "communication_reward": 131060.02611753534,
+          "total_reward": 131061.09278434746,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 8,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666666915231373,
+          "communication_reward": 33847.89586702722,
+          "total_reward": 33848.96253371874,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 9,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.066666670914345,
+          "communication_reward": 41572.14880392795,
+          "total_reward": 41573.215470598865,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 10,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0666666673925451,
+          "communication_reward": 12005.538995131377,
+          "total_reward": 12006.60566179877,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 11,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0666666667907108,
+          "communication_reward": 4886.96834614342,
+          "total_reward": 4888.03501281021,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 12,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666666666878644,
+          "communication_reward": 69507.55605081763,
+          "total_reward": 69508.62271748432,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 13,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000036223,
+          "communication_reward": 34292.114973613134,
+          "total_reward": 34293.21497361314,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 14,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.100000000000619,
+          "communication_reward": 35797.15888988532,
+          "total_reward": 35798.25888988532,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 15,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000001058,
+          "communication_reward": 14175.579036242247,
+          "total_reward": 14176.679036242247,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 16,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.100000000000018,
+          "communication_reward": 21330.56883102134,
+          "total_reward": 21331.66883102134,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 17,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000032,
+          "communication_reward": 88975.64569866878,
+          "total_reward": 88976.74569866879,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 18,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 17474.694396482653,
+          "total_reward": 17475.79439648265,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 19,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 36499.337461457195,
+          "total_reward": 36500.43746145719,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 20,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 40732.30307385775,
+          "total_reward": 40733.40307385775,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 21,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 31357.65451439038,
+          "total_reward": 31358.754514390377,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 22,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 36889.476297146815,
+          "total_reward": 36890.576297146814,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 23,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 27547.50253743997,
+          "total_reward": 27548.60253743997,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 24,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 50147.385543109,
+          "total_reward": 50148.485543108996,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 25,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 32980.31550091712,
+          "total_reward": 32981.415500917115,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 26,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 28170.528658150564,
+          "total_reward": 28171.628658150563,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 27,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 38886.88982029982,
+          "total_reward": 38887.989820299816,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 28,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 71194.49355261041,
+          "total_reward": 71195.59355261041,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 29,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 102831.68725625223,
+          "total_reward": 102832.78725625224,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 30,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 140676.79659135544,
+          "total_reward": 140677.89659135544,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 31,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 155961.18560238965,
+          "total_reward": 155962.28560238966,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 32,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 178781.30420874775,
+          "total_reward": 178782.40420874776,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 33,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 162837.6792462989,
+          "total_reward": 162838.77924629892,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 34,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 95351.64269818357,
+          "total_reward": 95352.74269818357,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 35,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 55393.40615617786,
+          "total_reward": 55394.50615617786,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 36,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 119181.14878927443,
+          "total_reward": 119182.24878927444,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 37,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 97143.24827102819,
+          "total_reward": 97144.3482710282,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 38,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 91426.34659868214,
+          "total_reward": 91427.44659868215,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 39,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 38899.25100454999,
+          "total_reward": 38900.351004549986,
+          "collision": false,
+          "handover": false
+        }
+      ],
+      "ad_action_counts": {
+        "FASTER": 25,
+        "SLOWER": 0,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 15
+      },
+      "v2i_action_counts": {
+        "max_weighted_rate": 16,
+        "adaptive_handover": 8,
+        "max_data_rate": 16
+      }
+    },
+    {
+      "episode": 7,
+      "total_reward": 2765120.046353515,
+      "ad_reward": 43.3412220020902,
+      "v2i_reward": 2765076.7051315117,
+      "steps": 40,
+      "collision": false,
+      "handovers": 12,
+      "decisions": [
+        {
+          "step": 0,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.034177646925228,
+          "communication_reward": 199106.908653484,
+          "total_reward": 199107.9428311309,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 1,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.0058405577467278,
+          "communication_reward": 80243.37505128527,
+          "total_reward": 80244.38089184301,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 2,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.0009980826025702,
+          "communication_reward": 83865.633710003,
+          "total_reward": 83866.6347080856,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 3,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0335038939072976,
+          "communication_reward": 40935.72766505899,
+          "total_reward": 40936.7611689529,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 4,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.0666958134620483,
+          "communication_reward": 58757.35342154137,
+          "total_reward": 58758.42011735483,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 5,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0666716475110747,
+          "communication_reward": 30669.390954599963,
+          "total_reward": 30670.457626247473,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 6,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666675178343745,
+          "communication_reward": 45905.51459385055,
+          "total_reward": 45906.58126136839,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 7,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666668121212135,
+          "communication_reward": 131362.3427734799,
+          "total_reward": 131363.40944029202,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 8,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.0666666915231373,
+          "communication_reward": 52136.52230776837,
+          "total_reward": 52137.58897445989,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 9,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.066666670914345,
+          "communication_reward": 53220.23299247368,
+          "total_reward": 53221.29965914459,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 10,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0666666673925451,
+          "communication_reward": 51012.43927610943,
+          "total_reward": 51013.50594277682,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 11,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.0666666667907108,
+          "communication_reward": 25094.370721646705,
+          "total_reward": 25095.437388313494,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 12,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666666666878644,
+          "communication_reward": 21390.334945487957,
+          "total_reward": 21391.401612154645,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 13,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.066666666670289,
+          "communication_reward": 36858.50880676543,
+          "total_reward": 36859.5754734321,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 14,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.100000000000619,
+          "communication_reward": 35727.21376238187,
+          "total_reward": 35728.31376238187,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 15,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000001058,
+          "communication_reward": 23111.95885894994,
+          "total_reward": 23113.05885894994,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 16,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.100000000000018,
+          "communication_reward": 54657.102576353194,
+          "total_reward": 54658.20257635319,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 17,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000032,
+          "communication_reward": 123115.1158424982,
+          "total_reward": 123116.2158424982,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 18,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 14289.477614663818,
+          "total_reward": 14290.577614663818,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 19,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 39996.72938605523,
+          "total_reward": 39997.82938605523,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 20,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 63233.11766652139,
+          "total_reward": 63234.21766652139,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 21,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 18472.920436231438,
+          "total_reward": 18474.020436231436,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 22,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 35074.11383505841,
+          "total_reward": 35075.21383505841,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 23,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 20625.036651679216,
+          "total_reward": 20626.136651679215,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 24,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 35119.439358759475,
+          "total_reward": 35120.53935875947,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 25,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 35903.18037090585,
+          "total_reward": 35904.28037090585,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 26,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 47791.07561944039,
+          "total_reward": 47792.175619440386,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 27,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 39747.33901316951,
+          "total_reward": 39748.43901316951,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 28,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 36433.153508102514,
+          "total_reward": 36434.25350810251,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 29,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 93233.50412092883,
+          "total_reward": 93234.60412092884,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 30,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 73717.5639784953,
+          "total_reward": 73718.6639784953,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 31,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 106492.67430002688,
+          "total_reward": 106493.77430002688,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 32,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 212884.84285405037,
+          "total_reward": 212885.94285405037,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 33,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 172848.5156366551,
+          "total_reward": 172849.6156366551,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 34,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 95078.54506490043,
+          "total_reward": 95079.64506490044,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 35,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 108206.7963458598,
+          "total_reward": 108207.8963458598,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 36,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 49096.140437565635,
+          "total_reward": 49097.24043756563,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 37,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 69095.02931129237,
+          "total_reward": 69096.12931129237,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 38,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 32504.579800026,
+          "total_reward": 32505.679800026,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 39,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 218062.88290738608,
+          "total_reward": 218063.9829073861,
+          "collision": false,
+          "handover": true
+        }
+      ],
+      "ad_action_counts": {
+        "FASTER": 26,
+        "SLOWER": 0,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 14
+      },
+      "v2i_action_counts": {
+        "max_weighted_rate": 23,
+        "adaptive_handover": 11,
+        "max_data_rate": 6
+      }
+    },
+    {
+      "episode": 8,
+      "total_reward": 2908397.541731791,
+      "ad_reward": 43.37455533542354,
+      "v2i_reward": 2908354.1671764553,
+      "steps": 40,
+      "collision": false,
+      "handovers": 7,
+      "decisions": [
+        {
+          "step": 0,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0675109802585614,
+          "communication_reward": 250727.49103789707,
+          "total_reward": 250728.55854887734,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 1,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0391738910800612,
+          "communication_reward": 87250.91007942316,
+          "total_reward": 87251.94925331425,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 2,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0343314159359036,
+          "communication_reward": 92814.16714008612,
+          "total_reward": 92815.20147150206,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 3,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0335038939072976,
+          "communication_reward": 72522.98411770463,
+          "total_reward": 72524.01762159854,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 4,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.033362480128715,
+          "communication_reward": 77567.40595205611,
+          "total_reward": 77568.43931453624,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 5,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0666716475110747,
+          "communication_reward": 56924.160363626565,
+          "total_reward": 56925.227035274074,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 6,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666675178343745,
+          "communication_reward": 55286.47385464882,
+          "total_reward": 55287.54052216666,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 7,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666668121212135,
+          "communication_reward": 71656.47291878288,
+          "total_reward": 71657.539585595,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 8,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666666915231373,
+          "communication_reward": 59064.85067677087,
+          "total_reward": 59065.91734346239,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 9,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.066666670914345,
+          "communication_reward": 37382.27225595234,
+          "total_reward": 37383.338922623254,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 10,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666666673925451,
+          "communication_reward": 54586.44343277118,
+          "total_reward": 54587.51009943857,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 11,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666666667907108,
+          "communication_reward": 57566.87675888235,
+          "total_reward": 57567.943425549136,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 12,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.0666666666878644,
+          "communication_reward": 63596.051346087006,
+          "total_reward": 63597.11801275369,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 13,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.066666666670289,
+          "communication_reward": 51068.83258844059,
+          "total_reward": 51069.899255107266,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 14,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0666666666672857,
+          "communication_reward": 16920.915129557117,
+          "total_reward": 16921.981796223783,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 15,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000001058,
+          "communication_reward": 32121.17007114584,
+          "total_reward": 32122.27007114584,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 16,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.100000000000018,
+          "communication_reward": 15578.941174447677,
+          "total_reward": 15580.041174447677,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 17,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000032,
+          "communication_reward": 69214.2456875783,
+          "total_reward": 69215.3456875783,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 18,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 29228.58380512881,
+          "total_reward": 29229.683805128807,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 19,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 42173.82949572673,
+          "total_reward": 42174.92949572673,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 20,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 5987.713122619743,
+          "total_reward": 5988.813122619744,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 21,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 21962.329059058244,
+          "total_reward": 21963.429059058242,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 22,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 53485.92789284161,
+          "total_reward": 53487.02789284161,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 23,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 78387.82686606306,
+          "total_reward": 78388.92686606306,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 24,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 19674.032253488393,
+          "total_reward": 19675.13225348839,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 25,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 49261.6576656681,
+          "total_reward": 49262.7576656681,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 26,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 72238.6515075288,
+          "total_reward": 72239.75150752881,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 27,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 82452.98648324731,
+          "total_reward": 82454.08648324732,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 28,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 112446.4436650156,
+          "total_reward": 112447.5436650156,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 29,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 68370.4771550038,
+          "total_reward": 68371.5771550038,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 30,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 71729.03060901856,
+          "total_reward": 71730.13060901857,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 31,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 134935.04874621963,
+          "total_reward": 134936.14874621964,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 32,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 184030.3032338234,
+          "total_reward": 184031.4032338234,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 33,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 188704.67739023708,
+          "total_reward": 188705.77739023708,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 34,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 124858.42406534577,
+          "total_reward": 124859.52406534577,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 35,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 82328.41174972706,
+          "total_reward": 82329.51174972707,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 36,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 108680.12340964346,
+          "total_reward": 108681.22340964347,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 37,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 52160.82989505001,
+          "total_reward": 52161.92989505001,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 38,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 52388.801001864515,
+          "total_reward": 52389.90100186451,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 39,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 51017.39351827771,
+          "total_reward": 51018.49351827771,
+          "collision": false,
+          "handover": false
+        }
+      ],
+      "ad_action_counts": {
+        "FASTER": 25,
+        "SLOWER": 0,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 15
+      },
+      "v2i_action_counts": {
+        "max_weighted_rate": 24,
+        "adaptive_handover": 5,
+        "max_data_rate": 11
+      }
+    },
+    {
+      "episode": 9,
+      "total_reward": 2961694.1866071383,
+      "ad_reward": 43.90788866875687,
+      "v2i_reward": 2961650.2787184687,
+      "steps": 40,
+      "collision": false,
+      "handovers": 7,
+      "decisions": [
+        {
+          "step": 0,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1008443135918946,
+          "communication_reward": 331096.7042256875,
+          "total_reward": 331097.80507000105,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 1,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.0725072244133944,
+          "communication_reward": 99814.47091391383,
+          "total_reward": 99815.54342113824,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 2,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.0676647492692368,
+          "communication_reward": 72165.91853413369,
+          "total_reward": 72166.98619888295,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 3,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.066837227240631,
+          "communication_reward": 140180.17449161253,
+          "total_reward": 140181.24132883977,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 4,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000291467953816,
+          "communication_reward": 75039.8369444796,
+          "total_reward": 75040.93697362639,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 5,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.100004980844408,
+          "communication_reward": 93646.61783978195,
+          "total_reward": 93647.7178447628,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 6,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000008511677077,
+          "communication_reward": 64317.11640718475,
+          "total_reward": 64318.21640803592,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 7,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.100000145454547,
+          "communication_reward": 64200.71818648096,
+          "total_reward": 64201.81818662641,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 8,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000248564707,
+          "communication_reward": 19971.039550768928,
+          "total_reward": 19972.139550793785,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 9,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000042476785,
+          "communication_reward": 47369.14479522458,
+          "total_reward": 47370.24479522883,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 10,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000007258783,
+          "communication_reward": 23856.483323935685,
+          "total_reward": 23857.58332393641,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 11,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.100000000124044,
+          "communication_reward": 40078.94859089702,
+          "total_reward": 40080.04859089714,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 12,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000211976,
+          "communication_reward": 57989.625251952064,
+          "total_reward": 57990.725251952084,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 13,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000036223,
+          "communication_reward": 16110.398744626402,
+          "total_reward": 16111.498744626406,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 14,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.100000000000619,
+          "communication_reward": 47394.22102877847,
+          "total_reward": 47395.32102877847,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 15,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000001058,
+          "communication_reward": 73885.99153986476,
+          "total_reward": 73887.09153986476,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 16,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.100000000000018,
+          "communication_reward": 23811.039508626516,
+          "total_reward": 23812.139508626515,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 17,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000032,
+          "communication_reward": 19099.470389590973,
+          "total_reward": 19100.570389590972,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 18,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 39962.16033323182,
+          "total_reward": 39963.26033323182,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 19,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 35014.68355525171,
+          "total_reward": 35015.783555251706,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 20,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 16579.306427220552,
+          "total_reward": 16580.40642722055,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 21,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 64997.8181408125,
+          "total_reward": 64998.9181408125,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 22,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 31598.769157407736,
+          "total_reward": 31599.869157407735,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 23,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 27392.384107267797,
+          "total_reward": 27393.484107267795,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 24,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 30021.502812756502,
+          "total_reward": 30022.6028127565,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 25,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 23211.477985707294,
+          "total_reward": 23212.577985707292,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 26,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 35903.210681015225,
+          "total_reward": 35904.310681015224,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 27,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 68211.78067068297,
+          "total_reward": 68212.88067068298,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 28,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 88731.29205212466,
+          "total_reward": 88732.39205212466,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 29,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 66755.49892754955,
+          "total_reward": 66756.59892754955,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 30,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 114147.41358222699,
+          "total_reward": 114148.513582227,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 31,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 94907.8924944928,
+          "total_reward": 94908.9924944928,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 32,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 214335.16733223788,
+          "total_reward": 214336.26733223788,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 33,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 200721.80148780157,
+          "total_reward": 200722.90148780157,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 34,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 105247.18903989255,
+          "total_reward": 105248.28903989255,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 35,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 76787.80887808005,
+          "total_reward": 76788.90887808005,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 36,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 68607.99314221676,
+          "total_reward": 68609.09314221676,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 37,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 79402.9762730025,
+          "total_reward": 79404.0762730025,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 38,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 111680.73055639093,
+          "total_reward": 111681.83055639094,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 39,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 57403.50081355884,
+          "total_reward": 57404.60081355884,
+          "collision": false,
+          "handover": false
+        }
+      ],
+      "ad_action_counts": {
+        "FASTER": 28,
+        "SLOWER": 0,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 12
+      },
+      "v2i_action_counts": {
+        "max_weighted_rate": 26,
+        "adaptive_handover": 3,
+        "max_data_rate": 11
+      }
+    },
+    {
+      "episode": 10,
+      "total_reward": 3103695.7970703933,
+      "ad_reward": 44.241222002090204,
+      "v2i_reward": 3103651.5558483903,
+      "steps": 40,
+      "collision": false,
+      "handovers": 9,
+      "decisions": [
+        {
+          "step": 0,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.3,
+          "communication_reward": 183863.8142786622,
+          "total_reward": 183865.1142786622,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 1,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.134177646925228,
+          "communication_reward": 113440.74505249377,
+          "total_reward": 113441.8792301407,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 2,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1058405577467278,
+          "communication_reward": 121472.45256548369,
+          "total_reward": 121473.55840604144,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 3,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1009980826025703,
+          "communication_reward": 104777.80655192981,
+          "total_reward": 104778.90755001242,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 4,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1001705605739642,
+          "communication_reward": 81370.87658613156,
+          "total_reward": 81371.97675669214,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 5,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000291467953816,
+          "communication_reward": 34239.119358818556,
+          "total_reward": 34240.21938796535,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 6,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.100004980844408,
+          "communication_reward": 59134.5151643421,
+          "total_reward": 59135.61516932294,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 7,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000008511677077,
+          "communication_reward": 58788.590816141856,
+          "total_reward": 58789.690816993025,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 8,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.100000145454547,
+          "communication_reward": 15011.12324799344,
+          "total_reward": 15012.223248138895,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 9,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000248564707,
+          "communication_reward": 70182.5659833367,
+          "total_reward": 70183.66598336156,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 10,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000042476785,
+          "communication_reward": 11375.140555652082,
+          "total_reward": 11376.24055565633,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 11,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000007258783,
+          "communication_reward": 27256.626049579332,
+          "total_reward": 27257.72604958006,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 12,
+          "ad_action": "IDLE",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.100000000124044,
+          "communication_reward": 35543.096604349055,
+          "total_reward": 35544.19660434918,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 13,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000211976,
+          "communication_reward": 48641.78455844884,
+          "total_reward": 48642.88455844886,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 14,
+          "ad_action": "IDLE",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000036223,
+          "communication_reward": 33614.80167497461,
+          "total_reward": 33615.901674974615,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 15,
+          "ad_action": "IDLE",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.100000000000619,
+          "communication_reward": 35546.01907230851,
+          "total_reward": 35547.11907230851,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 16,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000001058,
+          "communication_reward": 16222.622397434534,
+          "total_reward": 16223.722397434534,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 17,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.100000000000018,
+          "communication_reward": 48376.49002352191,
+          "total_reward": 48377.59002352191,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 18,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000032,
+          "communication_reward": 16736.836556228252,
+          "total_reward": 16737.93655622825,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 19,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 67184.85483353752,
+          "total_reward": 67185.95483353753,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 20,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 26298.388687880702,
+          "total_reward": 26299.4886878807,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 21,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 34648.30311730351,
+          "total_reward": 34649.40311730351,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 22,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 54840.6749971135,
+          "total_reward": 54841.7749971135,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 23,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 51989.792116155,
+          "total_reward": 51990.892116154995,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 24,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 56495.85909860687,
+          "total_reward": 56496.959098606865,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 25,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 63636.89410339273,
+          "total_reward": 63637.99410339273,
+          "collision": false,
+          "handover": true
+        },
+        {
+          "step": 26,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 86252.91558769604,
+          "total_reward": 86254.01558769605,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 27,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 39868.23183615957,
+          "total_reward": 39869.33183615957,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 28,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 111837.7751395436,
+          "total_reward": 111838.87513954361,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 29,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 108100.53305313294,
+          "total_reward": 108101.63305313294,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 30,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 207756.835223122,
+          "total_reward": 207757.935223122,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 31,
+          "ad_action": "FASTER",
+          "v2i_action": "adaptive_handover",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 140091.86791747354,
+          "total_reward": 140092.96791747355,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 32,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 384121.980546384,
+          "total_reward": 384123.080546384,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 33,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 147430.03498219245,
+          "total_reward": 147431.13498219245,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 34,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 54897.16456164349,
+          "total_reward": 54898.26456164349,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 35,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 67610.89418502663,
+          "total_reward": 67611.99418502663,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 36,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 113062.5551746745,
+          "total_reward": 113063.65517467451,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 37,
+          "ad_action": "FASTER",
+          "v2i_action": "max_data_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 73190.91842835459,
+          "total_reward": 73192.0184283546,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 38,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 39199.94152328339,
+          "total_reward": 39201.04152328339,
+          "collision": false,
+          "handover": false
+        },
+        {
+          "step": 39,
+          "ad_action": "FASTER",
+          "v2i_action": "max_weighted_rate",
+          "driving_reward": 1.1000000000000005,
+          "communication_reward": 59540.11363788362,
+          "total_reward": 59541.21363788362,
+          "collision": false,
+          "handover": false
+        }
+      ],
+      "ad_action_counts": {
+        "FASTER": 26,
+        "SLOWER": 0,
+        "LANE_LEFT": 0,
+        "LANE_RIGHT": 0,
+        "IDLE": 14
+      },
+      "v2i_action_counts": {
+        "max_weighted_rate": 28,
+        "adaptive_handover": 5,
+        "max_data_rate": 7
+      }
+    }
+  ],
+  "statistics": {
+    "avg_total_reward": 2057211.172557316,
+    "std_total_reward": 1104741.4919858358,
+    "avg_ad_reward": 30.700673941994857,
+    "std_ad_reward": 16.694874670807426,
+    "avg_v2i_reward": 2057180.4718833738,
+    "std_v2i_reward": 1104725.136466167,
+    "collision_rate": 0.4,
+    "avg_handover_rate": 0.16194444444444445,
+    "avg_steps": 27.8,
+    "ad_action_diversity": {
+      "FASTER": 200,
+      "SLOWER": 1,
+      "LANE_LEFT": 0,
+      "LANE_RIGHT": 0,
+      "IDLE": 77
+    },
+    "v2i_action_diversity": {
+      "max_weighted_rate": 145,
+      "adaptive_handover": 54,
+      "max_data_rate": 79
+    },
+    "llm_stats": {
+      "decisions": 278,
+      "collisions": 4,
+      "collision_rate": 0.014388489208633094,
+      "good_ex": 274,
+      "bad_ex": 4
+    },
+    "ddqn_stats": {
+      "total_decisions": 278,
+      "handover_count": 0,
+      "handover_rate": 0.0,
+      "epsilon": 0.28993519966087045,
+      "replay_buffer_size": 278,
+      "training_losses": [
+        3861841408.0,
+        4908467200.0,
+        9420331008.0,
+        3887168512.0,
+        6826030592.0,
+        5649015808.0,
+        3516970752.0,
+        4523616256.0,
+        2807528960.0,
+        6859530240.0,
+        3505230080.0,
+        3087178240.0,
+        3614453248.0,
+        4207836928.0,
+        5356494336.0,
+        3598504192.0,
+        6440482304.0,
+        1983047680.0,
+        3697592320.0,
+        3063324160.0,
+        6833623040.0,
+        5700468224.0,
+        4172674816.0,
+        1424006144.0,
+        6943365632.0,
+        2982726912.0,
+        6884015104.0,
+        2707595520.0,
+        8622214144.0,
+        2454295808.0,
+        3989691136.0,
+        3466426624.0,
+        8041992704.0,
+        6526076928.0,
+        2907202304.0,
+        7363985408.0,
+        7823290368.0,
+        6891796992.0,
+        2098119680.0,
+        5695330816.0,
+        7261583360.0,
+        3724746752.0,
+        5836035584.0,
+        1974379136.0,
+        3351081216.0,
+        7665331200.0,
+        2256185856.0,
+        8871526400.0,
+        5252303360.0,
+        4250155776.0,
+        8820133888.0,
+        4728285696.0,
+        6601922560.0,
+        12373526528.0,
+        15660621824.0,
+        6998788608.0,
+        9351567360.0,
+        6805469184.0,
+        7480079360.0,
+        8120288256.0,
+        9751680000.0,
+        10782355456.0,
+        8398683136.0,
+        9260098560.0,
+        7916474880.0,
+        8056003072.0,
+        6306539520.0,
+        4889630208.0,
+        3689111552.0,
+        4511224832.0,
+        8919374848.0,
+        2889649408.0,
+        6733217792.0,
+        2522415104.0,
+        5365598720.0,
+        5313967616.0,
+        6604377088.0,
+        4529436672.0,
+        7660034048.0,
+        6251766784.0,
+        2777572352.0,
+        4855242752.0,
+        5037457920.0,
+        5221862400.0,
+        2525584384.0,
+        6642580992.0,
+        2360388096.0,
+        4935764992.0,
+        6430888448.0,
+        5445638656.0,
+        4814270976.0,
+        3601146368.0,
+        3155085824.0,
+        3071529728.0,
+        6127133696.0,
+        5479426048.0,
+        7554764800.0,
+        6401511936.0,
+        5436600320.0,
+        8223326720.0
+      ],
+      "avg_q": "108398.02"
+    }
+  }
+}

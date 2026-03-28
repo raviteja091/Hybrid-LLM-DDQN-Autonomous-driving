@@ -1,0 +1,5738 @@
+{
+  "agent_type": "DDQN_Only",
+  "episodes": [
+    {
+      "episode": 1,
+      "total_reward": 2833467.5460797544,
+      "v2i_reward": 2833424.8381910855,
+      "steps": 40,
+      "handovers": 9,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1008443135918946,
+          "v2i_reward": 235522.24812578844,
+          "total_reward": 235523.34897010203,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0725072244133944,
+          "v2i_reward": 111851.49641091506,
+          "total_reward": 111852.56891813947,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0676647492692368,
+          "v2i_reward": 112320.35789951931,
+          "total_reward": 112321.42556426857,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.066837227240631,
+          "v2i_reward": 43546.47385326561,
+          "total_reward": 43547.54069049285,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666958134620483,
+          "v2i_reward": 58121.62025555046,
+          "total_reward": 58122.68695136392,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666716475110747,
+          "v2i_reward": 85976.45831808994,
+          "total_reward": 85977.52498973745,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666675178343745,
+          "v2i_reward": 40699.44371700143,
+          "total_reward": 40700.510384519264,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666668121212135,
+          "v2i_reward": 66580.07940120998,
+          "total_reward": 66581.1460680221,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666915231373,
+          "v2i_reward": 63021.83590749849,
+          "total_reward": 63022.90257419001,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.066666670914345,
+          "v2i_reward": 62404.24031213949,
+          "total_reward": 62405.306978810404,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666673925451,
+          "v2i_reward": 55411.365723192,
+          "total_reward": 55412.432389859394,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666667907108,
+          "v2i_reward": 37149.20817310307,
+          "total_reward": 37150.27483976986,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666878644,
+          "v2i_reward": 27310.603162612955,
+          "total_reward": 27311.669829279643,
+          "handover": true,
+          "training_loss": 0.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.066666666670289,
+          "v2i_reward": 27334.534896914694,
+          "total_reward": 27335.601563581364,
+          "handover": true,
+          "training_loss": 0.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666672857,
+          "v2i_reward": 26477.672173766477,
+          "total_reward": 26478.738840433143,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666667723,
+          "v2i_reward": 5033.080210818325,
+          "total_reward": 5034.146877484992,
+          "handover": true,
+          "training_loss": 0.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666846,
+          "v2i_reward": 15188.15793381791,
+          "total_reward": 15189.224600484578,
+          "handover": true,
+          "training_loss": 0.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666698,
+          "v2i_reward": 82060.22756160336,
+          "total_reward": 82061.29422827002,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 30848.516047018606,
+          "total_reward": 30849.58271368527,
+          "handover": true,
+          "training_loss": 0.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 34012.209073879065,
+          "total_reward": 34013.27574054573,
+          "handover": true,
+          "training_loss": 0.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 28664.107192703974,
+          "total_reward": 28665.17385937064,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 15462.630854679746,
+          "total_reward": 15463.697521346414,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 40187.003868471234,
+          "total_reward": 40188.0705351379,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 10274.70051880564,
+          "total_reward": 10275.767185472307,
+          "handover": true,
+          "training_loss": 0.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 40537.26852212417,
+          "total_reward": 40538.335188790836,
+          "handover": true,
+          "training_loss": 0.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 27576.555122169982,
+          "total_reward": 27577.62178883665,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 52174.39567007077,
+          "total_reward": 52175.46233673744,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 78666.65836733402,
+          "total_reward": 78667.72503400069,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 112935.48723015204,
+          "total_reward": 112936.5538968187,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 79651.56592289222,
+          "total_reward": 79652.63258955888,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 95082.82275328663,
+          "total_reward": 95083.8894199533,
+          "handover": false,
+          "training_loss": 0.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 99069.50029297451,
+          "total_reward": 99070.56695964118,
+          "handover": false,
+          "training_loss": 5474770432.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 214268.31503087547,
+          "total_reward": 214269.38169754215,
+          "handover": false,
+          "training_loss": 6855252992.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 203205.89427665016,
+          "total_reward": 203206.96094331684,
+          "handover": false,
+          "training_loss": 7903481856.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 91174.62617374679,
+          "total_reward": 91175.69284041345,
+          "handover": false,
+          "training_loss": 8017585152.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 87640.04101316564,
+          "total_reward": 87641.1076798323,
+          "handover": false,
+          "training_loss": 6239414272.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 109930.03312054275,
+          "total_reward": 109931.09978720942,
+          "handover": false,
+          "training_loss": 7987795456.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 101843.57005764262,
+          "total_reward": 101844.63672430928,
+          "handover": false,
+          "training_loss": 7908207616.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 107523.44061120809,
+          "total_reward": 107524.50727787476,
+          "handover": false,
+          "training_loss": 9180719104.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 16686.392433884335,
+          "total_reward": 16687.459100551,
+          "handover": true,
+          "training_loss": 7558807552.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 15,
+        "adaptive_handover": 12,
+        "max_data_rate": 13
+      }
+    },
+    {
+      "episode": 2,
+      "total_reward": 2336552.1560413404,
+      "v2i_reward": 2336509.4481526725,
+      "steps": 40,
+      "handovers": 6,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1008443135918946,
+          "v2i_reward": 213933.79542086832,
+          "total_reward": 213934.89626518192,
+          "handover": true,
+          "training_loss": 6834662912.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0725072244133944,
+          "v2i_reward": 105230.66981788573,
+          "total_reward": 105231.74232511014,
+          "handover": false,
+          "training_loss": 9745643520.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0676647492692368,
+          "v2i_reward": 73473.7453002951,
+          "total_reward": 73474.81296504436,
+          "handover": false,
+          "training_loss": 8456547328.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.066837227240631,
+          "v2i_reward": 47488.063419635786,
+          "total_reward": 47489.13025686303,
+          "handover": false,
+          "training_loss": 9918578688.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666958134620483,
+          "v2i_reward": 89090.951305161,
+          "total_reward": 89092.01800097447,
+          "handover": false,
+          "training_loss": 8995396608.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666716475110747,
+          "v2i_reward": 50248.587709838015,
+          "total_reward": 50249.654381485525,
+          "handover": false,
+          "training_loss": 7225092096.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666675178343745,
+          "v2i_reward": 23456.947967353484,
+          "total_reward": 23458.014634871317,
+          "handover": false,
+          "training_loss": 8786682880.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666668121212135,
+          "v2i_reward": 21239.086489448815,
+          "total_reward": 21240.153156260938,
+          "handover": false,
+          "training_loss": 10250440704.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666915231373,
+          "v2i_reward": 25906.106382599282,
+          "total_reward": 25907.173049290806,
+          "handover": false,
+          "training_loss": 7319424512.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.066666670914345,
+          "v2i_reward": 38319.48155708406,
+          "total_reward": 38320.54822375497,
+          "handover": false,
+          "training_loss": 7141476864.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666673925451,
+          "v2i_reward": 11203.874417226412,
+          "total_reward": 11204.941083893806,
+          "handover": false,
+          "training_loss": 5094686720.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666667907108,
+          "v2i_reward": 33572.27741669539,
+          "total_reward": 33573.34408336218,
+          "handover": false,
+          "training_loss": 7612127744.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666878644,
+          "v2i_reward": 47135.777292243394,
+          "total_reward": 47136.84395891008,
+          "handover": true,
+          "training_loss": 8124721152.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.066666666670289,
+          "v2i_reward": 16683.423838775496,
+          "total_reward": 16684.490505442165,
+          "handover": true,
+          "training_loss": 5887002624.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666672857,
+          "v2i_reward": 18937.21240386493,
+          "total_reward": 18938.279070531597,
+          "handover": false,
+          "training_loss": 6669476352.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666667723,
+          "v2i_reward": 7674.413932891578,
+          "total_reward": 7675.480599558245,
+          "handover": false,
+          "training_loss": 7789647872.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666846,
+          "v2i_reward": 46414.58365465154,
+          "total_reward": 46415.65032131821,
+          "handover": true,
+          "training_loss": 6636618240.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666698,
+          "v2i_reward": 47191.108559599605,
+          "total_reward": 47192.17522626627,
+          "handover": false,
+          "training_loss": 9487087616.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 11687.906117463994,
+          "total_reward": 11688.972784130661,
+          "handover": false,
+          "training_loss": 7265056768.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 13446.855390345687,
+          "total_reward": 13447.922057012354,
+          "handover": false,
+          "training_loss": 9022724096.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 11735.135801831837,
+          "total_reward": 11736.202468498504,
+          "handover": false,
+          "training_loss": 5178277888.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 36679.609463904846,
+          "total_reward": 36680.67613057151,
+          "handover": false,
+          "training_loss": 6482446336.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 26660.951704736835,
+          "total_reward": 26662.0183714035,
+          "handover": true,
+          "training_loss": 7669795328.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 53630.693423059936,
+          "total_reward": 53631.7600897266,
+          "handover": true,
+          "training_loss": 5396931072.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 36654.8970655482,
+          "total_reward": 36655.96373221486,
+          "handover": false,
+          "training_loss": 4414123520.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 49675.079828415,
+          "total_reward": 49676.146495081666,
+          "handover": false,
+          "training_loss": 4391435264.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 56871.999395301726,
+          "total_reward": 56873.06606196839,
+          "handover": false,
+          "training_loss": 6696362496.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 81680.1961211857,
+          "total_reward": 81681.26278785236,
+          "handover": false,
+          "training_loss": 7159152640.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 27256.70471643817,
+          "total_reward": 27257.771383104835,
+          "handover": false,
+          "training_loss": 5736894464.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 74085.39533373505,
+          "total_reward": 74086.46200040172,
+          "handover": false,
+          "training_loss": 4341140992.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 99381.39118868126,
+          "total_reward": 99382.45785534792,
+          "handover": false,
+          "training_loss": 5254950912.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 105246.02161760861,
+          "total_reward": 105247.08828427528,
+          "handover": false,
+          "training_loss": 4353405952.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 168419.15912858475,
+          "total_reward": 168420.22579525143,
+          "handover": false,
+          "training_loss": 6679533568.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 116162.7499901541,
+          "total_reward": 116163.81665682077,
+          "handover": false,
+          "training_loss": 6697284608.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 115540.08367435145,
+          "total_reward": 115541.15034101812,
+          "handover": false,
+          "training_loss": 5218225152.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 98696.36887967784,
+          "total_reward": 98697.43554634451,
+          "handover": false,
+          "training_loss": 4953707520.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 35980.97007897104,
+          "total_reward": 35982.036745637706,
+          "handover": false,
+          "training_loss": 6231019008.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 94777.03963951152,
+          "total_reward": 94778.10630617819,
+          "handover": false,
+          "training_loss": 4882266624.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 73220.1911560563,
+          "total_reward": 73221.25782272297,
+          "handover": false,
+          "training_loss": 4482645504.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 31819.9415509901,
+          "total_reward": 31821.008217656767,
+          "handover": false,
+          "training_loss": 7151366144.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 11,
+        "adaptive_handover": 10,
+        "max_data_rate": 19
+      }
+    },
+    {
+      "episode": 3,
+      "total_reward": 2750790.9403992277,
+      "v2i_reward": 2750749.5658438927,
+      "steps": 40,
+      "handovers": 11,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0675109802585614,
+          "v2i_reward": 316845.8712822985,
+          "total_reward": 316846.93879327876,
+          "handover": true,
+          "training_loss": 5278555136.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0391738910800612,
+          "v2i_reward": 138653.1390442909,
+          "total_reward": 138654.17821818197,
+          "handover": false,
+          "training_loss": 6975732224.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0343314159359036,
+          "v2i_reward": 70948.98294110484,
+          "total_reward": 70950.01727252078,
+          "handover": false,
+          "training_loss": 6040303104.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0335038939072976,
+          "v2i_reward": 73581.03059892685,
+          "total_reward": 73582.06410282076,
+          "handover": false,
+          "training_loss": 9183507456.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.033362480128715,
+          "v2i_reward": 47930.47251257756,
+          "total_reward": 47931.505875057686,
+          "handover": false,
+          "training_loss": 6548976640.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333383141777412,
+          "v2i_reward": 92655.33702068773,
+          "total_reward": 92656.37035900191,
+          "handover": false,
+          "training_loss": 6557323264.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.033334184501041,
+          "v2i_reward": 62600.08350031546,
+          "total_reward": 62601.11683449996,
+          "handover": false,
+          "training_loss": 7135437312.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333334787878803,
+          "v2i_reward": 45623.02646073469,
+          "total_reward": 45624.05979421348,
+          "handover": false,
+          "training_loss": 6180162048.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.033333358189804,
+          "v2i_reward": 24109.66140574179,
+          "total_reward": 24110.69473909998,
+          "handover": true,
+          "training_loss": 2825564672.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333375810119,
+          "v2i_reward": 26357.15492111758,
+          "total_reward": 26358.188254455163,
+          "handover": true,
+          "training_loss": 7650706432.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333340592117,
+          "v2i_reward": 28329.631994791074,
+          "total_reward": 28330.665328125135,
+          "handover": false,
+          "training_loss": 4320277504.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333334573773,
+          "v2i_reward": 66052.97737558332,
+          "total_reward": 66054.01070891677,
+          "handover": false,
+          "training_loss": 9191031808.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.033333333354531,
+          "v2i_reward": 16260.128752056691,
+          "total_reward": 16261.162085390046,
+          "handover": true,
+          "training_loss": 3922194944.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333369557,
+          "v2i_reward": 46937.04785171399,
+          "total_reward": 46938.08118504733,
+          "handover": true,
+          "training_loss": 2968902400.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333339523,
+          "v2i_reward": 18201.055333802946,
+          "total_reward": 18202.08866713628,
+          "handover": true,
+          "training_loss": 5012798464.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333334391,
+          "v2i_reward": 30849.76398296315,
+          "total_reward": 30850.797316296484,
+          "handover": true,
+          "training_loss": 5776604672.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333514,
+          "v2i_reward": 48754.17585138151,
+          "total_reward": 48755.20918471484,
+          "handover": true,
+          "training_loss": 5799663104.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333365,
+          "v2i_reward": 177994.51970202892,
+          "total_reward": 177995.55303536225,
+          "handover": true,
+          "training_loss": 4641465856.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 25871.32158517694,
+          "total_reward": 25872.35491851027,
+          "handover": true,
+          "training_loss": 4453528064.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 38636.99431030358,
+          "total_reward": 38638.02764363691,
+          "handover": false,
+          "training_loss": 3503746048.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 50522.04540945058,
+          "total_reward": 50523.07874278391,
+          "handover": false,
+          "training_loss": 4135706624.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 16827.768495692806,
+          "total_reward": 16828.80182902614,
+          "handover": false,
+          "training_loss": 4951573504.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 25883.503188030536,
+          "total_reward": 25884.53652136387,
+          "handover": true,
+          "training_loss": 2438651136.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 57564.521673907,
+          "total_reward": 57565.555007240335,
+          "handover": false,
+          "training_loss": 2637009920.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 27675.774407290774,
+          "total_reward": 27676.807740624106,
+          "handover": false,
+          "training_loss": 2977059328.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 54155.66565159878,
+          "total_reward": 54156.69898493211,
+          "handover": false,
+          "training_loss": 7473351168.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 55892.35624201876,
+          "total_reward": 55893.38957535209,
+          "handover": false,
+          "training_loss": 5044600832.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 40799.801764292475,
+          "total_reward": 40800.83509762581,
+          "handover": false,
+          "training_loss": 3429009920.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 30520.62065910245,
+          "total_reward": 30521.653992435782,
+          "handover": false,
+          "training_loss": 3638802688.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 41276.286523328556,
+          "total_reward": 41277.31985666189,
+          "handover": false,
+          "training_loss": 6086481408.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 105995.96337306497,
+          "total_reward": 105996.9967063983,
+          "handover": false,
+          "training_loss": 4257872640.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 61994.44124431984,
+          "total_reward": 61995.47457765317,
+          "handover": false,
+          "training_loss": 2785992704.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 200063.6282734665,
+          "total_reward": 200064.6616067998,
+          "handover": false,
+          "training_loss": 3140152064.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 146846.34631337662,
+          "total_reward": 146847.37964670995,
+          "handover": false,
+          "training_loss": 3717402880.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 72234.5112575576,
+          "total_reward": 72235.54459089095,
+          "handover": false,
+          "training_loss": 4557396992.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 57536.98489000938,
+          "total_reward": 57538.01822334271,
+          "handover": false,
+          "training_loss": 1239620992.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 102887.82129338381,
+          "total_reward": 102888.85462671715,
+          "handover": false,
+          "training_loss": 4541974016.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 89994.1887533273,
+          "total_reward": 89995.22208666064,
+          "handover": false,
+          "training_loss": 5892932608.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 80892.53899877625,
+          "total_reward": 80893.57233210959,
+          "handover": false,
+          "training_loss": 4409297920.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 33992.421004299504,
+          "total_reward": 33993.45433763284,
+          "handover": false,
+          "training_loss": 3641999616.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 12,
+        "adaptive_handover": 7,
+        "max_data_rate": 21
+      }
+    },
+    {
+      "episode": 4,
+      "total_reward": 3113964.6556172827,
+      "v2i_reward": 3113920.6143952794,
+      "steps": 40,
+      "handovers": 4,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.134177646925228,
+          "v2i_reward": 447600.1694099736,
+          "total_reward": 447601.30358762055,
+          "handover": true,
+          "training_loss": 4242112512.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1058405577467278,
+          "v2i_reward": 162683.47702823713,
+          "total_reward": 162684.58286879488,
+          "handover": false,
+          "training_loss": 6406953984.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1009980826025703,
+          "v2i_reward": 112345.73722670942,
+          "total_reward": 112346.83822479202,
+          "handover": false,
+          "training_loss": 6950604800.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1001705605739642,
+          "v2i_reward": 141961.614730774,
+          "total_reward": 141962.71490133455,
+          "handover": false,
+          "training_loss": 1873763968.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000291467953816,
+          "v2i_reward": 72592.33282055441,
+          "total_reward": 72593.4328497012,
+          "handover": false,
+          "training_loss": 10331300864.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.100004980844408,
+          "v2i_reward": 113639.62816495122,
+          "total_reward": 113640.72816993207,
+          "handover": false,
+          "training_loss": 999826816.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000008511677077,
+          "v2i_reward": 45501.499808895496,
+          "total_reward": 45502.599809746665,
+          "handover": false,
+          "training_loss": 2819252992.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.100000145454547,
+          "v2i_reward": 37516.536491692124,
+          "total_reward": 37517.63649183758,
+          "handover": false,
+          "training_loss": 2248812544.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000248564707,
+          "v2i_reward": 37084.374304693825,
+          "total_reward": 37085.47430471868,
+          "handover": false,
+          "training_loss": 9327380480.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000042476785,
+          "v2i_reward": 45545.64663769984,
+          "total_reward": 45546.74663770409,
+          "handover": false,
+          "training_loss": 11142194176.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000007258783,
+          "v2i_reward": 30363.50261859028,
+          "total_reward": 30364.602618591005,
+          "handover": false,
+          "training_loss": 8093560832.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.100000000124044,
+          "v2i_reward": 8820.732440577836,
+          "total_reward": 8821.83244057796,
+          "handover": false,
+          "training_loss": 10000747520.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000211976,
+          "v2i_reward": 25959.272879665274,
+          "total_reward": 25960.372879665294,
+          "handover": false,
+          "training_loss": 11839002624.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000036223,
+          "v2i_reward": 43124.01309412324,
+          "total_reward": 43125.11309412325,
+          "handover": false,
+          "training_loss": 10159588352.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.100000000000619,
+          "v2i_reward": 12959.649339192232,
+          "total_reward": 12960.749339192233,
+          "handover": false,
+          "training_loss": 4494395904.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000001058,
+          "v2i_reward": 12729.368634906921,
+          "total_reward": 12730.468634906922,
+          "handover": false,
+          "training_loss": 11191730176.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.100000000000018,
+          "v2i_reward": 46120.22222875909,
+          "total_reward": 46121.32222875909,
+          "handover": false,
+          "training_loss": 7980662784.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000032,
+          "v2i_reward": 95460.03750949813,
+          "total_reward": 95461.13750949813,
+          "handover": true,
+          "training_loss": 5150001152.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 17549.58897867345,
+          "total_reward": 17550.68897867345,
+          "handover": true,
+          "training_loss": 5757013504.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 20648.6469555766,
+          "total_reward": 20649.7469555766,
+          "handover": false,
+          "training_loss": 8164638720.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 20743.840018704104,
+          "total_reward": 20744.940018704103,
+          "handover": true,
+          "training_loss": 6122610688.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 23791.665213762935,
+          "total_reward": 23792.765213762934,
+          "handover": false,
+          "training_loss": 2511690496.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 50130.20037216328,
+          "total_reward": 50131.30037216328,
+          "handover": false,
+          "training_loss": 12411337728.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 66426.25897848638,
+          "total_reward": 66427.35897848639,
+          "handover": false,
+          "training_loss": 8929599488.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 36767.25088531402,
+          "total_reward": 36768.350885314016,
+          "handover": false,
+          "training_loss": 8935646208.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 54852.01605257325,
+          "total_reward": 54853.11605257325,
+          "handover": false,
+          "training_loss": 4023166720.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 67826.57346009913,
+          "total_reward": 67827.67346009913,
+          "handover": false,
+          "training_loss": 11233265664.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 47785.361064044846,
+          "total_reward": 47786.461064044845,
+          "handover": false,
+          "training_loss": 5793359872.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 119167.44540116144,
+          "total_reward": 119168.54540116145,
+          "handover": false,
+          "training_loss": 7896531968.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 81792.61211045878,
+          "total_reward": 81793.71211045879,
+          "handover": false,
+          "training_loss": 3636079104.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 60855.97320449113,
+          "total_reward": 60857.07320449113,
+          "handover": false,
+          "training_loss": 9950328832.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 155426.51255302582,
+          "total_reward": 155427.61255302583,
+          "handover": false,
+          "training_loss": 2009565696.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 191182.70993135736,
+          "total_reward": 191183.80993135736,
+          "handover": false,
+          "training_loss": 4920028160.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 183961.86015445692,
+          "total_reward": 183962.96015445693,
+          "handover": false,
+          "training_loss": 8864374784.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 118566.15313078547,
+          "total_reward": 118567.25313078548,
+          "handover": false,
+          "training_loss": 9966927872.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 80441.47970161607,
+          "total_reward": 80442.57970161608,
+          "handover": false,
+          "training_loss": 2979753728.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 91815.03329042903,
+          "total_reward": 91816.13329042903,
+          "handover": false,
+          "training_loss": 4246194432.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 44476.60820972653,
+          "total_reward": 44477.70820972653,
+          "handover": false,
+          "training_loss": 7788403200.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 57341.66848646446,
+          "total_reward": 57342.76848646446,
+          "handover": false,
+          "training_loss": 3040479744.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 30363.340872414894,
+          "total_reward": 30364.440872414893,
+          "handover": false,
+          "training_loss": 2914809600.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 9,
+        "adaptive_handover": 10,
+        "max_data_rate": 21
+      }
+    },
+    {
+      "episode": 5,
+      "total_reward": 2763399.9618248353,
+      "v2i_reward": 2763359.9206028334,
+      "steps": 40,
+      "handovers": 4,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.034177646925228,
+          "v2i_reward": 274563.4672690569,
+          "total_reward": 274564.5014467038,
+          "handover": true,
+          "training_loss": 10768729088.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0058405577467278,
+          "v2i_reward": 176280.57438085313,
+          "total_reward": 176281.58022141087,
+          "handover": false,
+          "training_loss": 4884111360.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0009980826025702,
+          "v2i_reward": 98468.9005715283,
+          "total_reward": 98469.9015696109,
+          "handover": false,
+          "training_loss": 4466047488.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0001705605739644,
+          "v2i_reward": 101676.15846027376,
+          "total_reward": 101677.15863083432,
+          "handover": false,
+          "training_loss": 5167893504.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000291467953817,
+          "v2i_reward": 49422.24849720649,
+          "total_reward": 49423.24852635329,
+          "handover": false,
+          "training_loss": 8538166272.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.000004980844408,
+          "v2i_reward": 74597.89848633706,
+          "total_reward": 74598.8984913179,
+          "handover": false,
+          "training_loss": 6130134528.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0000008511677079,
+          "v2i_reward": 19979.219987399145,
+          "total_reward": 19980.219988250312,
+          "handover": false,
+          "training_loss": 10181197824.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000001454545469,
+          "v2i_reward": 32117.345419549587,
+          "total_reward": 32118.34541969504,
+          "handover": false,
+          "training_loss": 2730967808.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0000000248564707,
+          "v2i_reward": 15791.798092104746,
+          "total_reward": 15792.798092129602,
+          "handover": false,
+          "training_loss": 2110472704.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0000000042476784,
+          "v2i_reward": 85479.14817195918,
+          "total_reward": 85480.14817196343,
+          "handover": false,
+          "training_loss": 3040030720.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000007258785,
+          "v2i_reward": 48562.61532463108,
+          "total_reward": 48563.615324631806,
+          "handover": false,
+          "training_loss": 3942234368.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000001240439,
+          "v2i_reward": 87269.09498246189,
+          "total_reward": 87270.09498246202,
+          "handover": false,
+          "training_loss": 6077712384.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000211977,
+          "v2i_reward": 27315.057417795477,
+          "total_reward": 27316.0574177955,
+          "handover": false,
+          "training_loss": 8556425728.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0000000000036224,
+          "v2i_reward": 64281.71304610395,
+          "total_reward": 64282.71304610395,
+          "handover": false,
+          "training_loss": 5489531904.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.000000000000619,
+          "v2i_reward": 5906.670922333517,
+          "total_reward": 5907.670922333518,
+          "handover": false,
+          "training_loss": 3201096960.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000001057,
+          "v2i_reward": 45629.647277149656,
+          "total_reward": 45630.647277149656,
+          "handover": true,
+          "training_loss": 3859700480.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.000000000000018,
+          "v2i_reward": 20583.74592836619,
+          "total_reward": 20584.74592836619,
+          "handover": true,
+          "training_loss": 4223364864.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.000000000000003,
+          "v2i_reward": 63658.36393955008,
+          "total_reward": 63659.36393955008,
+          "handover": false,
+          "training_loss": 3377580800.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 21583.51239944613,
+          "total_reward": 21584.51239944613,
+          "handover": true,
+          "training_loss": 5859651072.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 16188.409126727904,
+          "total_reward": 16189.409126727904,
+          "handover": false,
+          "training_loss": 2271457280.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 32768.702769674215,
+          "total_reward": 32769.702769674215,
+          "handover": false,
+          "training_loss": 3829153792.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 18159.615072682718,
+          "total_reward": 18160.615072682718,
+          "handover": false,
+          "training_loss": 3010944512.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 34279.938677406855,
+          "total_reward": 34280.938677406855,
+          "handover": false,
+          "training_loss": 3728742912.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 31217.84903523911,
+          "total_reward": 31218.84903523911,
+          "handover": false,
+          "training_loss": 5586513920.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 69779.33215687204,
+          "total_reward": 69780.33215687204,
+          "handover": false,
+          "training_loss": 7905004544.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 17578.05131644529,
+          "total_reward": 17579.05131644529,
+          "handover": false,
+          "training_loss": 3868512000.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 59685.57905958486,
+          "total_reward": 59686.57905958486,
+          "handover": false,
+          "training_loss": 4129052416.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 51506.76108134073,
+          "total_reward": 51507.76108134073,
+          "handover": false,
+          "training_loss": 3591963136.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 55377.072493961976,
+          "total_reward": 55378.072493961976,
+          "handover": false,
+          "training_loss": 3663664384.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 39909.92831349643,
+          "total_reward": 39910.92831349643,
+          "handover": false,
+          "training_loss": 5262077952.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 142218.78294988515,
+          "total_reward": 142219.78294988515,
+          "handover": false,
+          "training_loss": 5338362880.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 130484.40404866372,
+          "total_reward": 130485.40404866372,
+          "handover": false,
+          "training_loss": 4271831040.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 192914.71267730038,
+          "total_reward": 192915.71267730038,
+          "handover": false,
+          "training_loss": 2812231168.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 202762.3152823495,
+          "total_reward": 202763.3152823495,
+          "handover": false,
+          "training_loss": 3866791168.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 65911.34984874248,
+          "total_reward": 65912.34984874248,
+          "handover": false,
+          "training_loss": 6015880704.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 100429.71084151659,
+          "total_reward": 100430.71084151659,
+          "handover": false,
+          "training_loss": 4466300928.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 72087.77957732494,
+          "total_reward": 72088.77957732494,
+          "handover": false,
+          "training_loss": 4557306880.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 45387.4050662013,
+          "total_reward": 45388.4050662013,
+          "handover": false,
+          "training_loss": 9633618944.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 41968.17463118145,
+          "total_reward": 41969.17463118145,
+          "handover": false,
+          "training_loss": 6452931584.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0000000000000007,
+          "v2i_reward": 29576.866002128736,
+          "total_reward": 29577.866002128736,
+          "handover": false,
+          "training_loss": 3561496576.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 24,
+        "adaptive_handover": 10,
+        "max_data_rate": 6
+      }
+    },
+    {
+      "episode": 6,
+      "total_reward": 2667886.1570778596,
+      "v2i_reward": 2667843.4491891903,
+      "steps": 40,
+      "handovers": 10,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1008443135918946,
+          "v2i_reward": 283651.27038164466,
+          "total_reward": 283652.3712259582,
+          "handover": true,
+          "training_loss": 1637957376.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0725072244133944,
+          "v2i_reward": 143741.537551858,
+          "total_reward": 143742.61005908242,
+          "handover": false,
+          "training_loss": 3000648448.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0676647492692368,
+          "v2i_reward": 101853.26284526181,
+          "total_reward": 101854.33051001107,
+          "handover": false,
+          "training_loss": 3670935040.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.066837227240631,
+          "v2i_reward": 76451.65459147394,
+          "total_reward": 76452.72142870117,
+          "handover": false,
+          "training_loss": 2612749312.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666958134620483,
+          "v2i_reward": 71236.23148883478,
+          "total_reward": 71237.29818464824,
+          "handover": false,
+          "training_loss": 3071045376.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666716475110747,
+          "v2i_reward": 61391.41316482679,
+          "total_reward": 61392.4798364743,
+          "handover": false,
+          "training_loss": 2754666496.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666675178343745,
+          "v2i_reward": 39454.00172337113,
+          "total_reward": 39455.06839088897,
+          "handover": false,
+          "training_loss": 7357524992.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666668121212135,
+          "v2i_reward": 77399.52558076785,
+          "total_reward": 77400.59224757997,
+          "handover": false,
+          "training_loss": 8585965568.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666915231373,
+          "v2i_reward": 15319.09302017006,
+          "total_reward": 15320.159686861583,
+          "handover": true,
+          "training_loss": 10894598144.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.066666670914345,
+          "v2i_reward": 24703.337701009994,
+          "total_reward": 24704.40436768091,
+          "handover": true,
+          "training_loss": 8639474688.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666673925451,
+          "v2i_reward": 8486.616548058719,
+          "total_reward": 8487.683214726112,
+          "handover": true,
+          "training_loss": 3264439808.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666667907108,
+          "v2i_reward": 36146.411182618984,
+          "total_reward": 36147.47784928577,
+          "handover": true,
+          "training_loss": 9489954816.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666878644,
+          "v2i_reward": 8347.749022389742,
+          "total_reward": 8348.81568905643,
+          "handover": true,
+          "training_loss": 8538716160.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.066666666670289,
+          "v2i_reward": 18879.504615324793,
+          "total_reward": 18880.571281991462,
+          "handover": false,
+          "training_loss": 3986077696.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666672857,
+          "v2i_reward": 15341.051353224388,
+          "total_reward": 15342.118019891055,
+          "handover": false,
+          "training_loss": 6392841216.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666667723,
+          "v2i_reward": 42584.60430527755,
+          "total_reward": 42585.670971944215,
+          "handover": true,
+          "training_loss": 7042431488.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666846,
+          "v2i_reward": 24374.00260105757,
+          "total_reward": 24375.069267724237,
+          "handover": false,
+          "training_loss": 4841077248.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666698,
+          "v2i_reward": 97313.83542270219,
+          "total_reward": 97314.90208936886,
+          "handover": true,
+          "training_loss": 4783779840.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 26860.432835526874,
+          "total_reward": 26861.49950219354,
+          "handover": true,
+          "training_loss": 1559904384.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 7180.322082558316,
+          "total_reward": 7181.388749224982,
+          "handover": false,
+          "training_loss": 2332569856.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 18004.27644401044,
+          "total_reward": 18005.343110677106,
+          "handover": false,
+          "training_loss": 9399054336.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 16671.713290105643,
+          "total_reward": 16672.77995677231,
+          "handover": true,
+          "training_loss": 4606320128.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 26156.788394815372,
+          "total_reward": 26157.855061482038,
+          "handover": false,
+          "training_loss": 3873911808.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 18368.287988637843,
+          "total_reward": 18369.35465530451,
+          "handover": false,
+          "training_loss": 6470114304.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 59007.65961895681,
+          "total_reward": 59008.726285623474,
+          "handover": false,
+          "training_loss": 4382518272.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 60239.262863197684,
+          "total_reward": 60240.32952986435,
+          "handover": false,
+          "training_loss": 3833997568.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 75882.23907471266,
+          "total_reward": 75883.30574137933,
+          "handover": false,
+          "training_loss": 2595070976.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 35436.00153016991,
+          "total_reward": 35437.068196836575,
+          "handover": false,
+          "training_loss": 8898388992.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 84309.23472047687,
+          "total_reward": 84310.30138714354,
+          "handover": false,
+          "training_loss": 4059263488.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 95329.11585699936,
+          "total_reward": 95330.18252366602,
+          "handover": false,
+          "training_loss": 5600097280.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 89038.71155245125,
+          "total_reward": 89039.77821911791,
+          "handover": false,
+          "training_loss": 9173614592.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 142286.03022551886,
+          "total_reward": 142287.09689218554,
+          "handover": false,
+          "training_loss": 12938173440.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 204330.7111860811,
+          "total_reward": 204331.7778527478,
+          "handover": false,
+          "training_loss": 3689702144.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 142638.09524991977,
+          "total_reward": 142639.16191658645,
+          "handover": false,
+          "training_loss": 7815587840.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 106697.29511979397,
+          "total_reward": 106698.36178646063,
+          "handover": false,
+          "training_loss": 10196876288.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 66192.152542586,
+          "total_reward": 66193.21920925267,
+          "handover": false,
+          "training_loss": 7441677824.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 76036.85460745414,
+          "total_reward": 76037.9212741208,
+          "handover": false,
+          "training_loss": 5261630464.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 51122.88418204284,
+          "total_reward": 51123.95084870951,
+          "handover": false,
+          "training_loss": 2594699008.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 78972.54203166593,
+          "total_reward": 78973.6086983326,
+          "handover": false,
+          "training_loss": 2738367232.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 40407.7346916366,
+          "total_reward": 40408.801358303266,
+          "handover": false,
+          "training_loss": 5417854976.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 22,
+        "adaptive_handover": 11,
+        "max_data_rate": 7
+      }
+    },
+    {
+      "episode": 7,
+      "total_reward": 3161781.7451896896,
+      "v2i_reward": 3161737.7039676867,
+      "steps": 40,
+      "handovers": 11,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.134177646925228,
+          "v2i_reward": 221661.96566403846,
+          "total_reward": 221663.09984168538,
+          "handover": true,
+          "training_loss": 3803534848.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1058405577467278,
+          "v2i_reward": 142021.2106187299,
+          "total_reward": 142022.31645928766,
+          "handover": false,
+          "training_loss": 8305524224.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1009980826025703,
+          "v2i_reward": 74387.32883755858,
+          "total_reward": 74388.42983564119,
+          "handover": false,
+          "training_loss": 4141706752.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1001705605739642,
+          "v2i_reward": 97584.43422781315,
+          "total_reward": 97585.53439837373,
+          "handover": false,
+          "training_loss": 8882949120.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000291467953816,
+          "v2i_reward": 71815.01498222348,
+          "total_reward": 71816.11501137028,
+          "handover": false,
+          "training_loss": 5960606208.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.100004980844408,
+          "v2i_reward": 56797.49615549115,
+          "total_reward": 56798.59616047199,
+          "handover": false,
+          "training_loss": 4397531136.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000008511677077,
+          "v2i_reward": 64150.80089202768,
+          "total_reward": 64151.900892878846,
+          "handover": false,
+          "training_loss": 4509565952.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.100000145454547,
+          "v2i_reward": 54186.96246065581,
+          "total_reward": 54188.062460801266,
+          "handover": false,
+          "training_loss": 5185817088.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000248564707,
+          "v2i_reward": 75496.92205273418,
+          "total_reward": 75498.02205275904,
+          "handover": false,
+          "training_loss": 11229923328.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000042476785,
+          "v2i_reward": 77206.80763924801,
+          "total_reward": 77207.90763925225,
+          "handover": false,
+          "training_loss": 5979012096.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000007258783,
+          "v2i_reward": 52746.91648653255,
+          "total_reward": 52748.01648653328,
+          "handover": true,
+          "training_loss": 6535408128.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.100000000124044,
+          "v2i_reward": 45978.96971506899,
+          "total_reward": 45980.06971506911,
+          "handover": true,
+          "training_loss": 8493770752.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000211976,
+          "v2i_reward": 41874.8682567967,
+          "total_reward": 41875.96825679672,
+          "handover": true,
+          "training_loss": 4732253696.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000036223,
+          "v2i_reward": 14181.555120104736,
+          "total_reward": 14182.65512010474,
+          "handover": true,
+          "training_loss": 8437705216.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.100000000000619,
+          "v2i_reward": 14039.116720283422,
+          "total_reward": 14040.216720283423,
+          "handover": true,
+          "training_loss": 4462354944.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000001058,
+          "v2i_reward": 18448.355140038602,
+          "total_reward": 18449.4551400386,
+          "handover": false,
+          "training_loss": 5327328256.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.100000000000018,
+          "v2i_reward": 53927.8856857843,
+          "total_reward": 53928.9856857843,
+          "handover": true,
+          "training_loss": 12094777344.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000032,
+          "v2i_reward": 320908.55406539806,
+          "total_reward": 320909.65406539803,
+          "handover": true,
+          "training_loss": 4877146624.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 25284.67294061059,
+          "total_reward": 25285.77294061059,
+          "handover": true,
+          "training_loss": 8500203008.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 21230.232332765456,
+          "total_reward": 21231.332332765454,
+          "handover": true,
+          "training_loss": 6972547584.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 23292.155162864845,
+          "total_reward": 23293.255162864843,
+          "handover": false,
+          "training_loss": 10403565568.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 38988.340122140384,
+          "total_reward": 38989.44012214038,
+          "handover": false,
+          "training_loss": 2614147328.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 49677.00075494796,
+          "total_reward": 49678.10075494796,
+          "handover": false,
+          "training_loss": 3964730112.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 31436.983736749167,
+          "total_reward": 31438.083736749166,
+          "handover": false,
+          "training_loss": 9468121088.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 60788.90518394504,
+          "total_reward": 60790.00518394504,
+          "handover": false,
+          "training_loss": 7116684800.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 50371.12095622651,
+          "total_reward": 50372.220956226505,
+          "handover": false,
+          "training_loss": 2772431360.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 53349.355374549,
+          "total_reward": 53350.455374549,
+          "handover": false,
+          "training_loss": 9454386176.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 52992.26109193111,
+          "total_reward": 52993.36109193111,
+          "handover": false,
+          "training_loss": 4951312384.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 69229.28780003959,
+          "total_reward": 69230.38780003959,
+          "handover": false,
+          "training_loss": 6618916352.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 148482.96318330627,
+          "total_reward": 148484.06318330628,
+          "handover": false,
+          "training_loss": 3727805440.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 84572.10613852275,
+          "total_reward": 84573.20613852276,
+          "handover": false,
+          "training_loss": 8320162304.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 125969.7417915858,
+          "total_reward": 125970.8417915858,
+          "handover": false,
+          "training_loss": 3966330112.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 195347.4185670382,
+          "total_reward": 195348.5185670382,
+          "handover": false,
+          "training_loss": 13081430016.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 165092.01061163237,
+          "total_reward": 165093.11061163238,
+          "handover": false,
+          "training_loss": 2509577216.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 95516.97619104323,
+          "total_reward": 95518.07619104323,
+          "handover": false,
+          "training_loss": 3401299968.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 64192.07751335337,
+          "total_reward": 64193.17751335337,
+          "handover": false,
+          "training_loss": 6056555008.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 96889.10095326747,
+          "total_reward": 96890.20095326747,
+          "handover": false,
+          "training_loss": 11777100800.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 53401.01412123774,
+          "total_reward": 53402.11412123774,
+          "handover": false,
+          "training_loss": 14195943424.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 51258.57521865332,
+          "total_reward": 51259.67521865332,
+          "handover": false,
+          "training_loss": 4065943296.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 106960.2395007488,
+          "total_reward": 106961.3395007488,
+          "handover": true,
+          "training_loss": 2665620736.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 20,
+        "adaptive_handover": 8,
+        "max_data_rate": 12
+      }
+    },
+    {
+      "episode": 8,
+      "total_reward": 3228473.9392679147,
+      "v2i_reward": 3228429.8980459124,
+      "steps": 40,
+      "handovers": 8,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.134177646925228,
+          "v2i_reward": 263871.7040678147,
+          "total_reward": 263872.83824546164,
+          "handover": true,
+          "training_loss": 6988713472.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1058405577467278,
+          "v2i_reward": 154190.25758623387,
+          "total_reward": 154191.36342679162,
+          "handover": false,
+          "training_loss": 12316407808.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1009980826025703,
+          "v2i_reward": 102655.77006240249,
+          "total_reward": 102656.8710604851,
+          "handover": false,
+          "training_loss": 5221151744.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1001705605739642,
+          "v2i_reward": 71644.12145998802,
+          "total_reward": 71645.22163054859,
+          "handover": false,
+          "training_loss": 8740816896.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000291467953816,
+          "v2i_reward": 84290.91462914814,
+          "total_reward": 84292.01465829494,
+          "handover": false,
+          "training_loss": 5630780928.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.100004980844408,
+          "v2i_reward": 85205.43340176909,
+          "total_reward": 85206.53340674994,
+          "handover": false,
+          "training_loss": 8395060736.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000008511677077,
+          "v2i_reward": 19206.545534831817,
+          "total_reward": 19207.645535682987,
+          "handover": false,
+          "training_loss": 6199931904.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.100000145454547,
+          "v2i_reward": 59741.86710625226,
+          "total_reward": 59742.967106397715,
+          "handover": false,
+          "training_loss": 3792954112.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000248564707,
+          "v2i_reward": 57773.47766094827,
+          "total_reward": 57774.577660973126,
+          "handover": false,
+          "training_loss": 8877884416.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000042476785,
+          "v2i_reward": 20803.267480805334,
+          "total_reward": 20804.367480809582,
+          "handover": false,
+          "training_loss": 4175557120.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000007258783,
+          "v2i_reward": 52668.72768356989,
+          "total_reward": 52669.82768357061,
+          "handover": false,
+          "training_loss": 7867204608.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.100000000124044,
+          "v2i_reward": 26573.805055375808,
+          "total_reward": 26574.90505537593,
+          "handover": false,
+          "training_loss": 5840200704.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000211976,
+          "v2i_reward": 27855.825371488034,
+          "total_reward": 27856.925371488054,
+          "handover": false,
+          "training_loss": 7688947712.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000036223,
+          "v2i_reward": 17837.19165649906,
+          "total_reward": 17838.291656499063,
+          "handover": false,
+          "training_loss": 2337295616.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.100000000000619,
+          "v2i_reward": 76799.37395448596,
+          "total_reward": 76800.47395448596,
+          "handover": false,
+          "training_loss": 12762364928.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000001058,
+          "v2i_reward": 60464.10391046814,
+          "total_reward": 60465.20391046814,
+          "handover": true,
+          "training_loss": 3327712768.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.100000000000018,
+          "v2i_reward": 13839.540625902611,
+          "total_reward": 13840.640625902612,
+          "handover": false,
+          "training_loss": 8310949888.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000032,
+          "v2i_reward": 25669.85741119517,
+          "total_reward": 25670.95741119517,
+          "handover": true,
+          "training_loss": 5287563776.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 20590.082841612788,
+          "total_reward": 20591.182841612786,
+          "handover": true,
+          "training_loss": 3478003968.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 31616.73209662283,
+          "total_reward": 31617.832096622828,
+          "handover": false,
+          "training_loss": 4670591488.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 28323.5272988168,
+          "total_reward": 28324.6272988168,
+          "handover": true,
+          "training_loss": 4276088576.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 28899.548170088547,
+          "total_reward": 28900.648170088545,
+          "handover": false,
+          "training_loss": 3809299456.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 41569.164010465,
+          "total_reward": 41570.264010465,
+          "handover": true,
+          "training_loss": 5733819904.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 43621.63188880275,
+          "total_reward": 43622.73188880275,
+          "handover": true,
+          "training_loss": 3166426112.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 66239.46965541382,
+          "total_reward": 66240.56965541383,
+          "handover": false,
+          "training_loss": 4525171712.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 29791.91846594428,
+          "total_reward": 29793.01846594428,
+          "handover": false,
+          "training_loss": 2527250176.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 93476.08001745887,
+          "total_reward": 93477.18001745887,
+          "handover": false,
+          "training_loss": 5004278272.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 55508.33334161736,
+          "total_reward": 55509.43334161736,
+          "handover": false,
+          "training_loss": 2931771904.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 78542.13549531158,
+          "total_reward": 78543.23549531159,
+          "handover": false,
+          "training_loss": 4485153280.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 59046.58869628367,
+          "total_reward": 59047.688696283665,
+          "handover": false,
+          "training_loss": 5741450240.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 101167.16701538434,
+          "total_reward": 101168.26701538435,
+          "handover": false,
+          "training_loss": 5248732672.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 145209.81903967363,
+          "total_reward": 145210.91903967364,
+          "handover": false,
+          "training_loss": 9154923520.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 194684.68280421785,
+          "total_reward": 194685.78280421786,
+          "handover": false,
+          "training_loss": 4756103680.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 161925.01558563352,
+          "total_reward": 161926.11558563352,
+          "handover": false,
+          "training_loss": 3201347584.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 99174.30833627698,
+          "total_reward": 99175.40833627699,
+          "handover": false,
+          "training_loss": 8832861184.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 69918.93367815157,
+          "total_reward": 69920.03367815158,
+          "handover": false,
+          "training_loss": 4294469888.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 41174.36685111897,
+          "total_reward": 41175.46685111897,
+          "handover": false,
+          "training_loss": 7870539264.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 48808.42128447379,
+          "total_reward": 48809.52128447379,
+          "handover": false,
+          "training_loss": 5036100096.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 67105.34110591548,
+          "total_reward": 67106.44110591548,
+          "handover": false,
+          "training_loss": 2866657280.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 500944.84570744925,
+          "total_reward": 500945.9457074492,
+          "handover": true,
+          "training_loss": 2682208768.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 12,
+        "adaptive_handover": 15,
+        "max_data_rate": 13
+      }
+    },
+    {
+      "episode": 9,
+      "total_reward": 2804870.1838541375,
+      "v2i_reward": 2804828.809298801,
+      "steps": 40,
+      "handovers": 11,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0675109802585614,
+          "v2i_reward": 210925.56006924217,
+          "total_reward": 210926.62758022244,
+          "handover": true,
+          "training_loss": 4111807488.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0391738910800612,
+          "v2i_reward": 172639.78812465197,
+          "total_reward": 172640.82729854304,
+          "handover": false,
+          "training_loss": 6402148352.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0343314159359036,
+          "v2i_reward": 111187.24591200225,
+          "total_reward": 111188.2802434182,
+          "handover": false,
+          "training_loss": 5395948544.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0335038939072976,
+          "v2i_reward": 56900.83150813858,
+          "total_reward": 56901.86501203249,
+          "handover": false,
+          "training_loss": 8342667776.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.033362480128715,
+          "v2i_reward": 51286.000703869315,
+          "total_reward": 51287.03406634944,
+          "handover": false,
+          "training_loss": 5046301696.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333383141777412,
+          "v2i_reward": 69922.25125563258,
+          "total_reward": 69923.28459394677,
+          "handover": false,
+          "training_loss": 7276509184.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.033334184501041,
+          "v2i_reward": 24311.864137927118,
+          "total_reward": 24312.897472111617,
+          "handover": false,
+          "training_loss": 4704462848.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333334787878803,
+          "v2i_reward": 49183.16133848995,
+          "total_reward": 49184.19467196873,
+          "handover": false,
+          "training_loss": 4791021568.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.033333358189804,
+          "v2i_reward": 18022.692342376617,
+          "total_reward": 18023.725675734808,
+          "handover": false,
+          "training_loss": 5044502016.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333375810119,
+          "v2i_reward": 28331.997317504814,
+          "total_reward": 28333.030650842396,
+          "handover": false,
+          "training_loss": 7228988416.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333340592117,
+          "v2i_reward": 54610.03698687048,
+          "total_reward": 54611.07032020454,
+          "handover": false,
+          "training_loss": 12610185216.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333334573773,
+          "v2i_reward": 16885.277846720426,
+          "total_reward": 16886.311180053883,
+          "handover": false,
+          "training_loss": 15351220224.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.033333333354531,
+          "v2i_reward": 30034.21024435986,
+          "total_reward": 30035.243577693214,
+          "handover": false,
+          "training_loss": 13523474432.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333369557,
+          "v2i_reward": 16057.462860468968,
+          "total_reward": 16058.496193802304,
+          "handover": true,
+          "training_loss": 7690808320.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333339523,
+          "v2i_reward": 11285.354897068648,
+          "total_reward": 11286.388230401983,
+          "handover": true,
+          "training_loss": 5424444928.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333334391,
+          "v2i_reward": 29628.533799074103,
+          "total_reward": 29629.567132407436,
+          "handover": false,
+          "training_loss": 9697298432.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333514,
+          "v2i_reward": 17168.499698643736,
+          "total_reward": 17169.53303197707,
+          "handover": true,
+          "training_loss": 6173163008.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333365,
+          "v2i_reward": 134512.22451382113,
+          "total_reward": 134513.25784715445,
+          "handover": true,
+          "training_loss": 9608888320.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 11723.469479456426,
+          "total_reward": 11724.502812789759,
+          "handover": true,
+          "training_loss": 9031658496.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 12911.057017130852,
+          "total_reward": 12912.090350464185,
+          "handover": true,
+          "training_loss": 10655983616.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 32358.81395824613,
+          "total_reward": 32359.847291579463,
+          "handover": true,
+          "training_loss": 9080172544.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 35707.78615775074,
+          "total_reward": 35708.819491084076,
+          "handover": false,
+          "training_loss": 7661213696.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 70025.11629112456,
+          "total_reward": 70026.1496244579,
+          "handover": false,
+          "training_loss": 5459430912.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 50729.76614313545,
+          "total_reward": 50730.79947646878,
+          "handover": false,
+          "training_loss": 12253996032.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 8309.320080291107,
+          "total_reward": 8310.35341362444,
+          "handover": true,
+          "training_loss": 7143791616.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 29440.759394964913,
+          "total_reward": 29441.792728298245,
+          "handover": true,
+          "training_loss": 3204357632.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 34358.985964684514,
+          "total_reward": 34360.01929801785,
+          "handover": false,
+          "training_loss": 5571492864.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 43315.05455536732,
+          "total_reward": 43316.087888700655,
+          "handover": false,
+          "training_loss": 6031432704.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 64156.55800272254,
+          "total_reward": 64157.59133605587,
+          "handover": false,
+          "training_loss": 3750145536.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 123340.91009645119,
+          "total_reward": 123341.94342978453,
+          "handover": false,
+          "training_loss": 8754812928.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 107914.84526752781,
+          "total_reward": 107915.87860086115,
+          "handover": false,
+          "training_loss": 5844876288.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 103831.1236439506,
+          "total_reward": 103832.15697728394,
+          "handover": false,
+          "training_loss": 6321425920.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 228750.30077750867,
+          "total_reward": 228751.334110842,
+          "handover": false,
+          "training_loss": 4983841280.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 204779.43060188965,
+          "total_reward": 204780.46393522297,
+          "handover": false,
+          "training_loss": 7170163200.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 102948.32018273766,
+          "total_reward": 102949.353516071,
+          "handover": false,
+          "training_loss": 6473305088.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 88332.13259138154,
+          "total_reward": 88333.16592471488,
+          "handover": false,
+          "training_loss": 4100883456.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 77256.60898783956,
+          "total_reward": 77257.6423211729,
+          "handover": false,
+          "training_loss": 12522836992.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 42526.05868787378,
+          "total_reward": 42527.092021207114,
+          "handover": false,
+          "training_loss": 9002840064.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 98484.4418429848,
+          "total_reward": 98485.47517631814,
+          "handover": false,
+          "training_loss": 7251317760.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 130734.95601691882,
+          "total_reward": 130735.98935025216,
+          "handover": true,
+          "training_loss": 4337007104.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 20,
+        "adaptive_handover": 8,
+        "max_data_rate": 12
+      }
+    },
+    {
+      "episode": 10,
+      "total_reward": 2885870.326399436,
+      "v2i_reward": 2885828.9518441004,
+      "steps": 40,
+      "handovers": 9,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0675109802585614,
+          "v2i_reward": 144385.01967210145,
+          "total_reward": 144386.08718308172,
+          "handover": true,
+          "training_loss": 5635073024.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0391738910800612,
+          "v2i_reward": 123606.31104368396,
+          "total_reward": 123607.35021757505,
+          "handover": false,
+          "training_loss": 10393953280.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0343314159359036,
+          "v2i_reward": 92479.6719599867,
+          "total_reward": 92480.70629140265,
+          "handover": false,
+          "training_loss": 8164494336.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0335038939072976,
+          "v2i_reward": 29682.843631950942,
+          "total_reward": 29683.87713584485,
+          "handover": false,
+          "training_loss": 4763606016.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.033362480128715,
+          "v2i_reward": 78415.35190801721,
+          "total_reward": 78416.38527049734,
+          "handover": false,
+          "training_loss": 4939684352.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333383141777412,
+          "v2i_reward": 106867.77169651721,
+          "total_reward": 106868.8050348314,
+          "handover": false,
+          "training_loss": 8184679424.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.033334184501041,
+          "v2i_reward": 40137.85640479348,
+          "total_reward": 40138.88973897798,
+          "handover": false,
+          "training_loss": 7893806080.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333334787878803,
+          "v2i_reward": 37433.501160499436,
+          "total_reward": 37434.53449397822,
+          "handover": false,
+          "training_loss": 8616810496.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.033333358189804,
+          "v2i_reward": 6373.452221869826,
+          "total_reward": 6374.485555228016,
+          "handover": true,
+          "training_loss": 9294618624.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333375810119,
+          "v2i_reward": 23571.93718215197,
+          "total_reward": 23572.970515489553,
+          "handover": true,
+          "training_loss": 4260479744.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333340592117,
+          "v2i_reward": 28234.613667234204,
+          "total_reward": 28235.647000568264,
+          "handover": false,
+          "training_loss": 11769356288.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333334573773,
+          "v2i_reward": 45952.143470227136,
+          "total_reward": 45953.17680356059,
+          "handover": false,
+          "training_loss": 15116500992.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.033333333354531,
+          "v2i_reward": 37701.36548850978,
+          "total_reward": 37702.39882184313,
+          "handover": false,
+          "training_loss": 7852161536.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333369557,
+          "v2i_reward": 27521.56960160782,
+          "total_reward": 27522.602934941155,
+          "handover": false,
+          "training_loss": 11602766848.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333339523,
+          "v2i_reward": 46349.43993036742,
+          "total_reward": 46350.473263700755,
+          "handover": false,
+          "training_loss": 5309743104.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333334391,
+          "v2i_reward": 18367.668667237587,
+          "total_reward": 18368.70200057092,
+          "handover": true,
+          "training_loss": 14684820480.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333514,
+          "v2i_reward": 26379.973965414534,
+          "total_reward": 26381.007298747867,
+          "handover": true,
+          "training_loss": 8402149888.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333365,
+          "v2i_reward": 40039.064717956535,
+          "total_reward": 40040.09805128987,
+          "handover": false,
+          "training_loss": 8056815104.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 12065.67065808653,
+          "total_reward": 12066.703991419863,
+          "handover": false,
+          "training_loss": 7715638272.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 22400.708878332556,
+          "total_reward": 22401.74221166589,
+          "handover": true,
+          "training_loss": 3669390080.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 48654.047007365996,
+          "total_reward": 48655.08034069933,
+          "handover": true,
+          "training_loss": 2988962560.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 28689.25291009569,
+          "total_reward": 28690.286243429022,
+          "handover": true,
+          "training_loss": 13300795392.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 19658.176544088852,
+          "total_reward": 19659.209877422185,
+          "handover": false,
+          "training_loss": 4510647296.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 62065.84303052985,
+          "total_reward": 62066.876363863186,
+          "handover": false,
+          "training_loss": 6226673664.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 52085.21741244505,
+          "total_reward": 52086.25074577838,
+          "handover": false,
+          "training_loss": 7650007040.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 49657.66417306644,
+          "total_reward": 49658.697506399774,
+          "handover": false,
+          "training_loss": 10205798400.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 36754.99573721612,
+          "total_reward": 36756.029070549455,
+          "handover": false,
+          "training_loss": 5139106304.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 31554.585939542536,
+          "total_reward": 31555.61927287587,
+          "handover": false,
+          "training_loss": 4927736832.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 110324.53913171853,
+          "total_reward": 110325.57246505187,
+          "handover": false,
+          "training_loss": 6095393792.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 53383.596954223,
+          "total_reward": 53384.630287556334,
+          "handover": false,
+          "training_loss": 4400524288.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 198609.58729273896,
+          "total_reward": 198610.62062607228,
+          "handover": false,
+          "training_loss": 10082823168.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 139035.1083843134,
+          "total_reward": 139036.14171764674,
+          "handover": false,
+          "training_loss": 8339975680.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 271400.2332779362,
+          "total_reward": 271401.2666112695,
+          "handover": false,
+          "training_loss": 4984975360.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 84162.5615312531,
+          "total_reward": 84163.59486458644,
+          "handover": false,
+          "training_loss": 7707269120.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 148800.4656998998,
+          "total_reward": 148801.49903323312,
+          "handover": false,
+          "training_loss": 4977174016.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 127449.16538005696,
+          "total_reward": 127450.1987133903,
+          "handover": false,
+          "training_loss": 5940944896.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 101935.6860816188,
+          "total_reward": 101936.71941495214,
+          "handover": false,
+          "training_loss": 3622635520.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 105087.23038124347,
+          "total_reward": 105088.26371457681,
+          "handover": false,
+          "training_loss": 9180243968.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 77855.33268085889,
+          "total_reward": 77856.36601419223,
+          "handover": false,
+          "training_loss": 5752699392.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 150699.72636734258,
+          "total_reward": 150700.7597006759,
+          "handover": true,
+          "training_loss": 5721241600.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 12,
+        "adaptive_handover": 19,
+        "max_data_rate": 9
+      }
+    },
+    {
+      "episode": 11,
+      "total_reward": 2912689.5788721475,
+      "v2i_reward": 2912645.537650144,
+      "steps": 40,
+      "handovers": 10,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.134177646925228,
+          "v2i_reward": 328210.29459696857,
+          "total_reward": 328211.4287746155,
+          "handover": true,
+          "training_loss": 4793895936.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1058405577467278,
+          "v2i_reward": 125892.24819527441,
+          "total_reward": 125893.35403583216,
+          "handover": false,
+          "training_loss": 9931149312.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1009980826025703,
+          "v2i_reward": 104744.63947185897,
+          "total_reward": 104745.74046994158,
+          "handover": false,
+          "training_loss": 7233816576.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1001705605739642,
+          "v2i_reward": 78220.13483507704,
+          "total_reward": 78221.23500563762,
+          "handover": false,
+          "training_loss": 12166495232.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000291467953816,
+          "v2i_reward": 80545.98281624417,
+          "total_reward": 80547.08284539096,
+          "handover": false,
+          "training_loss": 5770986496.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.100004980844408,
+          "v2i_reward": 63039.05070737252,
+          "total_reward": 63040.15071235336,
+          "handover": false,
+          "training_loss": 6810070528.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000008511677077,
+          "v2i_reward": 55804.97758867955,
+          "total_reward": 55806.077589530716,
+          "handover": false,
+          "training_loss": 4158469632.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.100000145454547,
+          "v2i_reward": 69049.72713560922,
+          "total_reward": 69050.82713575468,
+          "handover": false,
+          "training_loss": 4898703360.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000248564707,
+          "v2i_reward": 21414.586388204647,
+          "total_reward": 21415.686388229504,
+          "handover": true,
+          "training_loss": 7170167296.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000042476785,
+          "v2i_reward": 5796.625514096084,
+          "total_reward": 5797.725514100332,
+          "handover": true,
+          "training_loss": 5330766336.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000007258783,
+          "v2i_reward": 22077.9248103587,
+          "total_reward": 22079.024810359428,
+          "handover": true,
+          "training_loss": 5186106368.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.100000000124044,
+          "v2i_reward": 6649.331761210812,
+          "total_reward": 6650.431761210936,
+          "handover": true,
+          "training_loss": 5188844032.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000211976,
+          "v2i_reward": 38965.33706891663,
+          "total_reward": 38966.43706891665,
+          "handover": false,
+          "training_loss": 8890502144.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000036223,
+          "v2i_reward": 38354.91341093824,
+          "total_reward": 38356.01341093825,
+          "handover": false,
+          "training_loss": 8426695680.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.100000000000619,
+          "v2i_reward": 34926.585298659316,
+          "total_reward": 34927.685298659315,
+          "handover": false,
+          "training_loss": 6607765504.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000001058,
+          "v2i_reward": 7261.5895818537365,
+          "total_reward": 7262.689581853737,
+          "handover": true,
+          "training_loss": 8063170560.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.100000000000018,
+          "v2i_reward": 23327.83965692277,
+          "total_reward": 23328.93965692277,
+          "handover": true,
+          "training_loss": 4271285248.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000032,
+          "v2i_reward": 122464.6246757273,
+          "total_reward": 122465.72467572731,
+          "handover": true,
+          "training_loss": 6759200768.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 18864.500482233314,
+          "total_reward": 18865.600482233313,
+          "handover": true,
+          "training_loss": 2510344960.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 14643.802401677383,
+          "total_reward": 14644.902401677384,
+          "handover": true,
+          "training_loss": 14583795712.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 42322.42051105674,
+          "total_reward": 42323.52051105674,
+          "handover": false,
+          "training_loss": 3313092864.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 43367.91393231769,
+          "total_reward": 43369.01393231769,
+          "handover": false,
+          "training_loss": 8040414720.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 18830.749535385607,
+          "total_reward": 18831.849535385605,
+          "handover": false,
+          "training_loss": 12753422336.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 14120.267304995521,
+          "total_reward": 14121.367304995521,
+          "handover": false,
+          "training_loss": 9928907776.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 59502.47550066238,
+          "total_reward": 59503.57550066238,
+          "handover": false,
+          "training_loss": 2839938816.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 110046.22309513211,
+          "total_reward": 110047.32309513212,
+          "handover": false,
+          "training_loss": 7718674432.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 66260.0734047052,
+          "total_reward": 66261.1734047052,
+          "handover": false,
+          "training_loss": 8179758080.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 33445.443835499806,
+          "total_reward": 33446.543835499804,
+          "handover": false,
+          "training_loss": 6390733824.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 67615.28699537908,
+          "total_reward": 67616.38699537909,
+          "handover": false,
+          "training_loss": 6241278464.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 64249.8178863103,
+          "total_reward": 64250.9178863103,
+          "handover": false,
+          "training_loss": 11554093056.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 154509.1866940922,
+          "total_reward": 154510.2866940922,
+          "handover": false,
+          "training_loss": 10414141440.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 87389.69953376488,
+          "total_reward": 87390.79953376489,
+          "handover": false,
+          "training_loss": 9796901888.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 217762.47418336428,
+          "total_reward": 217763.57418336428,
+          "handover": false,
+          "training_loss": 8197100032.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 127948.78005200767,
+          "total_reward": 127949.88005200768,
+          "handover": false,
+          "training_loss": 11745503232.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 98079.11219177254,
+          "total_reward": 98080.21219177255,
+          "handover": false,
+          "training_loss": 14642094080.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 118901.27669697799,
+          "total_reward": 118902.376696978,
+          "handover": false,
+          "training_loss": 8163888128.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 110487.71848828022,
+          "total_reward": 110488.81848828023,
+          "handover": false,
+          "training_loss": 13560158208.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 57262.895807682115,
+          "total_reward": 57263.99580768211,
+          "handover": false,
+          "training_loss": 9014291456.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 89997.83144041793,
+          "total_reward": 89998.93144041793,
+          "handover": false,
+          "training_loss": 5508925440.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1000000000000005,
+          "v2i_reward": 70291.17416245739,
+          "total_reward": 70292.2741624574,
+          "handover": false,
+          "training_loss": 9036359680.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 27,
+        "adaptive_handover": 9,
+        "max_data_rate": 4
+      }
+    },
+    {
+      "episode": 12,
+      "total_reward": 3153274.51637107,
+      "v2i_reward": 3153231.8084824006,
+      "steps": 40,
+      "handovers": 10,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.1008443135918946,
+          "v2i_reward": 201143.43070518825,
+          "total_reward": 201144.53154950184,
+          "handover": true,
+          "training_loss": 6007067648.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0725072244133944,
+          "v2i_reward": 144108.27365191636,
+          "total_reward": 144109.34615914078,
+          "handover": false,
+          "training_loss": 6693325824.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0676647492692368,
+          "v2i_reward": 457939.7656699334,
+          "total_reward": 457940.8333346827,
+          "handover": true,
+          "training_loss": 7106580480.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.066837227240631,
+          "v2i_reward": 92504.8062451368,
+          "total_reward": 92505.87308236404,
+          "handover": true,
+          "training_loss": 6825213952.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666958134620483,
+          "v2i_reward": 78921.9872749228,
+          "total_reward": 78923.05397073626,
+          "handover": false,
+          "training_loss": 10169162752.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666716475110747,
+          "v2i_reward": 23394.147859814846,
+          "total_reward": 23395.214531462356,
+          "handover": false,
+          "training_loss": 6395984384.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666675178343745,
+          "v2i_reward": 65754.59401847208,
+          "total_reward": 65755.66068598992,
+          "handover": false,
+          "training_loss": 3752207104.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666668121212135,
+          "v2i_reward": 77828.22594500908,
+          "total_reward": 77829.2926118212,
+          "handover": false,
+          "training_loss": 6268080640.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666915231373,
+          "v2i_reward": 40181.94454035777,
+          "total_reward": 40183.01120704929,
+          "handover": true,
+          "training_loss": 8360082432.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.066666670914345,
+          "v2i_reward": 64347.05852978034,
+          "total_reward": 64348.125196451256,
+          "handover": false,
+          "training_loss": 9338142720.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666673925451,
+          "v2i_reward": 35847.47170075819,
+          "total_reward": 35848.538367425586,
+          "handover": true,
+          "training_loss": 11706472448.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666667907108,
+          "v2i_reward": 19927.171202030317,
+          "total_reward": 19928.237868697106,
+          "handover": false,
+          "training_loss": 22826971136.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666878644,
+          "v2i_reward": 15022.52584080734,
+          "total_reward": 15023.592507474028,
+          "handover": false,
+          "training_loss": 7133079552.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.066666666670289,
+          "v2i_reward": 44374.45743173689,
+          "total_reward": 44375.52409840356,
+          "handover": false,
+          "training_loss": 7448226816.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666672857,
+          "v2i_reward": 33520.82731649426,
+          "total_reward": 33521.893983160924,
+          "handover": false,
+          "training_loss": 4382830080.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666667723,
+          "v2i_reward": 39014.9274743736,
+          "total_reward": 39015.99414104027,
+          "handover": false,
+          "training_loss": 12033707008.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666846,
+          "v2i_reward": 22650.31479863882,
+          "total_reward": 22651.381465305487,
+          "handover": false,
+          "training_loss": 7991174656.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666698,
+          "v2i_reward": 21115.153882807295,
+          "total_reward": 21116.22054947396,
+          "handover": false,
+          "training_loss": 7877400064.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 47671.484255129195,
+          "total_reward": 47672.55092179586,
+          "handover": true,
+          "training_loss": 5082538496.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 5099.345336783562,
+          "total_reward": 5100.412003450228,
+          "handover": false,
+          "training_loss": 6044395008.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 24588.730574792553,
+          "total_reward": 24589.79724145922,
+          "handover": false,
+          "training_loss": 6218028032.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 46869.48276115589,
+          "total_reward": 46870.54942782255,
+          "handover": false,
+          "training_loss": 7455527936.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 21068.980080712598,
+          "total_reward": 21070.046747379263,
+          "handover": true,
+          "training_loss": 14243590144.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 38063.60366603215,
+          "total_reward": 38064.67033269881,
+          "handover": true,
+          "training_loss": 11065462784.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 14005.175293503968,
+          "total_reward": 14006.241960170635,
+          "handover": true,
+          "training_loss": 7269466112.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 15154.629392433859,
+          "total_reward": 15155.696059100526,
+          "handover": true,
+          "training_loss": 17211607040.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 32190.6929395481,
+          "total_reward": 32191.759606214764,
+          "handover": false,
+          "training_loss": 21285873664.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 107513.04312560539,
+          "total_reward": 107514.10979227205,
+          "handover": false,
+          "training_loss": 10452236288.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 83941.65182731979,
+          "total_reward": 83942.71849398645,
+          "handover": false,
+          "training_loss": 7601062912.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 88350.51309642634,
+          "total_reward": 88351.579763093,
+          "handover": false,
+          "training_loss": 5975469056.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 62707.10255639584,
+          "total_reward": 62708.169223062505,
+          "handover": false,
+          "training_loss": 3459083008.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 173413.49652009545,
+          "total_reward": 173414.56318676213,
+          "handover": false,
+          "training_loss": 3911931392.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 268334.80981292226,
+          "total_reward": 268335.8764795889,
+          "handover": false,
+          "training_loss": 10180919296.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 178820.12856527398,
+          "total_reward": 178821.19523194066,
+          "handover": false,
+          "training_loss": 13657548800.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 95515.7252519455,
+          "total_reward": 95516.79191861217,
+          "handover": false,
+          "training_loss": 8055433728.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 77574.93231456517,
+          "total_reward": 77575.99898123184,
+          "handover": false,
+          "training_loss": 6551167488.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 118509.95702946851,
+          "total_reward": 118511.02369613518,
+          "handover": false,
+          "training_loss": 15518812160.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 65254.83308385132,
+          "total_reward": 65255.89975051799,
+          "handover": false,
+          "training_loss": 12014017536.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 90271.88913426288,
+          "total_reward": 90272.95580092954,
+          "handover": false,
+          "training_loss": 11057186816.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 20714.517775998203,
+          "total_reward": 20715.58444266487,
+          "handover": false,
+          "training_loss": 13458782208.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 20,
+        "adaptive_handover": 13,
+        "max_data_rate": 7
+      }
+    },
+    {
+      "episode": 13,
+      "total_reward": 2954839.4860650594,
+      "v2i_reward": 2954796.77817639,
+      "steps": 40,
+      "handovers": 8,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.1008443135918946,
+          "v2i_reward": 251690.93424961454,
+          "total_reward": 251692.03509392813,
+          "handover": true,
+          "training_loss": 7663042048.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0725072244133944,
+          "v2i_reward": 136533.17413217068,
+          "total_reward": 136534.2466393951,
+          "handover": false,
+          "training_loss": 12719509504.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0676647492692368,
+          "v2i_reward": 124468.5430636648,
+          "total_reward": 124469.61072841406,
+          "handover": false,
+          "training_loss": 14627155968.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.066837227240631,
+          "v2i_reward": 103464.53117278236,
+          "total_reward": 103465.59801000959,
+          "handover": false,
+          "training_loss": 9258298368.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666958134620483,
+          "v2i_reward": 81633.78531119278,
+          "total_reward": 81634.85200700625,
+          "handover": false,
+          "training_loss": 14235265024.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666716475110747,
+          "v2i_reward": 38538.449449056716,
+          "total_reward": 38539.516120704226,
+          "handover": false,
+          "training_loss": 8060913664.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666675178343745,
+          "v2i_reward": 55676.589698322845,
+          "total_reward": 55677.65636584068,
+          "handover": false,
+          "training_loss": 14841197568.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666668121212135,
+          "v2i_reward": 122059.00801254697,
+          "total_reward": 122060.0746793591,
+          "handover": false,
+          "training_loss": 3132109056.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666915231373,
+          "v2i_reward": 22273.92184774939,
+          "total_reward": 22274.988514440913,
+          "handover": false,
+          "training_loss": 11187004416.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.066666670914345,
+          "v2i_reward": 38029.86682934198,
+          "total_reward": 38030.9334960129,
+          "handover": false,
+          "training_loss": 16459084800.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666673925451,
+          "v2i_reward": 47504.07914998875,
+          "total_reward": 47505.14581665614,
+          "handover": false,
+          "training_loss": 12770896896.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666667907108,
+          "v2i_reward": 43094.76411307585,
+          "total_reward": 43095.83077974264,
+          "handover": true,
+          "training_loss": 4863579136.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666878644,
+          "v2i_reward": 20641.76818822684,
+          "total_reward": 20642.83485489353,
+          "handover": true,
+          "training_loss": 16168798208.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.066666666670289,
+          "v2i_reward": 33991.323788760754,
+          "total_reward": 33992.39045542743,
+          "handover": false,
+          "training_loss": 5606583296.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666672857,
+          "v2i_reward": 26844.777176944597,
+          "total_reward": 26845.843843611263,
+          "handover": false,
+          "training_loss": 14259620864.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666667723,
+          "v2i_reward": 23707.28653546383,
+          "total_reward": 23708.353202130496,
+          "handover": false,
+          "training_loss": 10223071232.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666846,
+          "v2i_reward": 15408.022354314748,
+          "total_reward": 15409.089020981415,
+          "handover": false,
+          "training_loss": 7583139328.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666698,
+          "v2i_reward": 103584.88626036697,
+          "total_reward": 103585.95292703364,
+          "handover": true,
+          "training_loss": 5827491328.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 6494.318110923385,
+          "total_reward": 6495.384777590051,
+          "handover": false,
+          "training_loss": 3025363456.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 31521.665374331547,
+          "total_reward": 31522.732040998213,
+          "handover": true,
+          "training_loss": 6924340224.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 22947.89188123082,
+          "total_reward": 22948.958547897484,
+          "handover": true,
+          "training_loss": 10243997696.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 42605.05677572779,
+          "total_reward": 42606.123442394455,
+          "handover": false,
+          "training_loss": 5002001920.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 19678.3810767461,
+          "total_reward": 19679.447743412766,
+          "handover": true,
+          "training_loss": 4981143552.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 26075.46807247284,
+          "total_reward": 26076.534739139504,
+          "handover": true,
+          "training_loss": 9220177920.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 43981.267973617505,
+          "total_reward": 43982.33464028417,
+          "handover": false,
+          "training_loss": 18259779584.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 40983.89923287449,
+          "total_reward": 40984.96589954116,
+          "handover": false,
+          "training_loss": 8413601792.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 49092.3463186631,
+          "total_reward": 49093.41298532976,
+          "handover": false,
+          "training_loss": 3180665856.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 87872.04172021807,
+          "total_reward": 87873.10838688473,
+          "handover": false,
+          "training_loss": 9122592768.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 67624.29098325234,
+          "total_reward": 67625.35764991901,
+          "handover": false,
+          "training_loss": 8550299136.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 98249.47817914908,
+          "total_reward": 98250.54484581575,
+          "handover": false,
+          "training_loss": 14225121280.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 104673.37340326632,
+          "total_reward": 104674.44006993299,
+          "handover": false,
+          "training_loss": 15753298944.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 150284.79207040183,
+          "total_reward": 150285.8587370685,
+          "handover": false,
+          "training_loss": 10829497344.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 216294.00391066677,
+          "total_reward": 216295.07057733345,
+          "handover": false,
+          "training_loss": 7418879488.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 237406.51238161357,
+          "total_reward": 237407.57904828025,
+          "handover": false,
+          "training_loss": 14451469312.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 120964.95816324765,
+          "total_reward": 120966.02482991431,
+          "handover": false,
+          "training_loss": 6727968256.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 78895.0697613311,
+          "total_reward": 78896.13642799777,
+          "handover": false,
+          "training_loss": 14924457984.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 57690.682031856544,
+          "total_reward": 57691.74869852321,
+          "handover": false,
+          "training_loss": 9503839232.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 52555.529393736695,
+          "total_reward": 52556.59606040336,
+          "handover": false,
+          "training_loss": 8910629888.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 44748.12095542029,
+          "total_reward": 44749.18762208695,
+          "handover": false,
+          "training_loss": 7426927616.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0666666666666673,
+          "v2i_reward": 65011.91907205776,
+          "total_reward": 65012.98573872443,
+          "handover": false,
+          "training_loss": 12271108096.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 14,
+        "adaptive_handover": 15,
+        "max_data_rate": 11
+      }
+    },
+    {
+      "episode": 14,
+      "total_reward": 2776385.7326963777,
+      "v2i_reward": 2776344.3581410428,
+      "steps": 40,
+      "handovers": 11,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0675109802585614,
+          "v2i_reward": 231046.74755762581,
+          "total_reward": 231047.81506860608,
+          "handover": true,
+          "training_loss": 5123170816.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0391738910800612,
+          "v2i_reward": 127998.93774782309,
+          "total_reward": 127999.97692171417,
+          "handover": false,
+          "training_loss": 13946186752.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0343314159359036,
+          "v2i_reward": 92829.56014367861,
+          "total_reward": 92830.59447509455,
+          "handover": false,
+          "training_loss": 2984023296.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0335038939072976,
+          "v2i_reward": 61973.015260865606,
+          "total_reward": 61974.048764759515,
+          "handover": false,
+          "training_loss": 9550718976.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.033362480128715,
+          "v2i_reward": 49287.85130521822,
+          "total_reward": 49288.884667698345,
+          "handover": false,
+          "training_loss": 12957581312.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333383141777412,
+          "v2i_reward": 65950.63141727587,
+          "total_reward": 65951.66475559006,
+          "handover": false,
+          "training_loss": 8889823232.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.033334184501041,
+          "v2i_reward": 77573.42950776212,
+          "total_reward": 77574.46284194662,
+          "handover": false,
+          "training_loss": 4520534016.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333334787878803,
+          "v2i_reward": 40863.94651842691,
+          "total_reward": 40864.97985190569,
+          "handover": false,
+          "training_loss": 2914821888.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.033333358189804,
+          "v2i_reward": 57452.5918289212,
+          "total_reward": 57453.625162279386,
+          "handover": false,
+          "training_loss": 20395266048.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333375810119,
+          "v2i_reward": 7714.215997997009,
+          "total_reward": 7715.24933133459,
+          "handover": false,
+          "training_loss": 20485330944.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333340592117,
+          "v2i_reward": 47585.448570767,
+          "total_reward": 47586.48190410106,
+          "handover": false,
+          "training_loss": 6867487744.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333334573773,
+          "v2i_reward": 10064.712716900705,
+          "total_reward": 10065.746050234162,
+          "handover": true,
+          "training_loss": 23431680000.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.033333333354531,
+          "v2i_reward": 34679.435337981704,
+          "total_reward": 34680.46867131506,
+          "handover": false,
+          "training_loss": 10722011136.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333369557,
+          "v2i_reward": 42663.12676471847,
+          "total_reward": 42664.16009805181,
+          "handover": false,
+          "training_loss": 15397825536.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333339523,
+          "v2i_reward": 55196.29901517758,
+          "total_reward": 55197.332348510914,
+          "handover": true,
+          "training_loss": 15695577088.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333334391,
+          "v2i_reward": 10119.016117043742,
+          "total_reward": 10120.049450377075,
+          "handover": false,
+          "training_loss": 14156158976.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333514,
+          "v2i_reward": 13471.58429885361,
+          "total_reward": 13472.617632186943,
+          "handover": true,
+          "training_loss": 8047450624.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333365,
+          "v2i_reward": 180515.0460168141,
+          "total_reward": 180516.07935014743,
+          "handover": true,
+          "training_loss": 12797717504.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 19355.132329892007,
+          "total_reward": 19356.16566322534,
+          "handover": true,
+          "training_loss": 15154173952.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 10726.637159275115,
+          "total_reward": 10727.670492608448,
+          "handover": true,
+          "training_loss": 12924385280.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 53200.18744836396,
+          "total_reward": 53201.220781697295,
+          "handover": false,
+          "training_loss": 11012270080.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 21443.901539800023,
+          "total_reward": 21444.934873133356,
+          "handover": true,
+          "training_loss": 15220339712.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 18083.814950336324,
+          "total_reward": 18084.848283669657,
+          "handover": true,
+          "training_loss": 5739199488.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 23195.73589883688,
+          "total_reward": 23196.769232170212,
+          "handover": false,
+          "training_loss": 7920417792.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 31707.944034991633,
+          "total_reward": 31708.977368324966,
+          "handover": false,
+          "training_loss": 10778869760.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 64150.00828466383,
+          "total_reward": 64151.041617997165,
+          "handover": false,
+          "training_loss": 11560419328.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 9632.923048670802,
+          "total_reward": 9633.956382004135,
+          "handover": false,
+          "training_loss": 7037445120.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 101665.88696218349,
+          "total_reward": 101666.92029551683,
+          "handover": false,
+          "training_loss": 8653006848.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 47462.3607631448,
+          "total_reward": 47463.394096478136,
+          "handover": false,
+          "training_loss": 16821522432.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 129604.20260423048,
+          "total_reward": 129605.23593756382,
+          "handover": false,
+          "training_loss": 4808546304.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 80385.87684959533,
+          "total_reward": 80386.91018292867,
+          "handover": false,
+          "training_loss": 6459404800.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 128094.47338005532,
+          "total_reward": 128095.50671338866,
+          "handover": false,
+          "training_loss": 16938649600.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 196217.29378628184,
+          "total_reward": 196218.32711961516,
+          "handover": false,
+          "training_loss": 21147717632.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 183934.08524720737,
+          "total_reward": 183935.1185805407,
+          "handover": false,
+          "training_loss": 6374705152.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 125158.90673904664,
+          "total_reward": 125159.94007237998,
+          "handover": false,
+          "training_loss": 9867454464.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 73678.90869063116,
+          "total_reward": 73679.9420239645,
+          "handover": false,
+          "training_loss": 35290607616.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 114252.36562510015,
+          "total_reward": 114253.39895843349,
+          "handover": false,
+          "training_loss": 6575658496.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 70864.95604846397,
+          "total_reward": 70865.9893817973,
+          "handover": false,
+          "training_loss": 21883729920.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 21603.531426161615,
+          "total_reward": 21604.564759494948,
+          "handover": true,
+          "training_loss": 9492769792.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 44939.62920025846,
+          "total_reward": 44940.66253359179,
+          "handover": true,
+          "training_loss": 6056934400.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 25,
+        "adaptive_handover": 5,
+        "max_data_rate": 10
+      }
+    },
+    {
+      "episode": 15,
+      "total_reward": 3423624.7080182494,
+      "v2i_reward": 3423583.333462914,
+      "steps": 40,
+      "handovers": 7,
+      "decisions": [
+        {
+          "step": 0,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0675109802585614,
+          "v2i_reward": 290587.3038045243,
+          "total_reward": 290588.37131550454,
+          "handover": true,
+          "training_loss": 26326581248.0
+        },
+        {
+          "step": 1,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0391738910800612,
+          "v2i_reward": 120205.95253159635,
+          "total_reward": 120206.99170548744,
+          "handover": false,
+          "training_loss": 23765549056.0
+        },
+        {
+          "step": 2,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0343314159359036,
+          "v2i_reward": 100757.30705236067,
+          "total_reward": 100758.34138377661,
+          "handover": false,
+          "training_loss": 19274680320.0
+        },
+        {
+          "step": 3,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0335038939072976,
+          "v2i_reward": 144485.96335829742,
+          "total_reward": 144486.99686219133,
+          "handover": false,
+          "training_loss": 9899073536.0
+        },
+        {
+          "step": 4,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.033362480128715,
+          "v2i_reward": 51009.80257408497,
+          "total_reward": 51010.8359365651,
+          "handover": false,
+          "training_loss": 13315543040.0
+        },
+        {
+          "step": 5,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333383141777412,
+          "v2i_reward": 113331.35882728598,
+          "total_reward": 113332.39216560016,
+          "handover": false,
+          "training_loss": 9063184384.0
+        },
+        {
+          "step": 6,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.033334184501041,
+          "v2i_reward": 16486.273715604108,
+          "total_reward": 16487.307049788607,
+          "handover": false,
+          "training_loss": 6194619392.0
+        },
+        {
+          "step": 7,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333334787878803,
+          "v2i_reward": 57548.87794434573,
+          "total_reward": 57549.91127782452,
+          "handover": false,
+          "training_loss": 16966406144.0
+        },
+        {
+          "step": 8,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.033333358189804,
+          "v2i_reward": 41902.62052596652,
+          "total_reward": 41903.65385932471,
+          "handover": false,
+          "training_loss": 28116062208.0
+        },
+        {
+          "step": 9,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333375810119,
+          "v2i_reward": 42113.15609818847,
+          "total_reward": 42114.18943152605,
+          "handover": false,
+          "training_loss": 6665366016.0
+        },
+        {
+          "step": 10,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333340592117,
+          "v2i_reward": 23482.127180154217,
+          "total_reward": 23483.160513488278,
+          "handover": false,
+          "training_loss": 15272615936.0
+        },
+        {
+          "step": 11,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333334573773,
+          "v2i_reward": 23868.33060388037,
+          "total_reward": 23869.363937213828,
+          "handover": true,
+          "training_loss": 6073515008.0
+        },
+        {
+          "step": 12,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.033333333354531,
+          "v2i_reward": 98995.28648910242,
+          "total_reward": 98996.31982243578,
+          "handover": true,
+          "training_loss": 14703362048.0
+        },
+        {
+          "step": 13,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333369557,
+          "v2i_reward": 33714.000945677515,
+          "total_reward": 33715.034279010855,
+          "handover": true,
+          "training_loss": 7606593536.0
+        },
+        {
+          "step": 14,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333339523,
+          "v2i_reward": 11831.006544702435,
+          "total_reward": 11832.03987803577,
+          "handover": true,
+          "training_loss": 16627241984.0
+        },
+        {
+          "step": 15,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333334391,
+          "v2i_reward": 27051.563367333154,
+          "total_reward": 27052.596700666487,
+          "handover": false,
+          "training_loss": 22921560064.0
+        },
+        {
+          "step": 16,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333514,
+          "v2i_reward": 32503.131912994926,
+          "total_reward": 32504.16524632826,
+          "handover": false,
+          "training_loss": 12309656576.0
+        },
+        {
+          "step": 17,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333365,
+          "v2i_reward": 437965.32556656667,
+          "total_reward": 437966.3588999,
+          "handover": true,
+          "training_loss": 4689325568.0
+        },
+        {
+          "step": 18,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 16818.387187433807,
+          "total_reward": 16819.42052076714,
+          "handover": true,
+          "training_loss": 21707259904.0
+        },
+        {
+          "step": 19,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 36968.214865738584,
+          "total_reward": 36969.24819907192,
+          "handover": false,
+          "training_loss": 8993908736.0
+        },
+        {
+          "step": 20,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 25349.22297442552,
+          "total_reward": 25350.256307758853,
+          "handover": false,
+          "training_loss": 16439619584.0
+        },
+        {
+          "step": 21,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 53610.508558103254,
+          "total_reward": 53611.54189143659,
+          "handover": false,
+          "training_loss": 18675417088.0
+        },
+        {
+          "step": 22,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 92039.26020743452,
+          "total_reward": 92040.29354076786,
+          "handover": false,
+          "training_loss": 9560863744.0
+        },
+        {
+          "step": 23,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 61428.090232142975,
+          "total_reward": 61429.12356547631,
+          "handover": false,
+          "training_loss": 24014305280.0
+        },
+        {
+          "step": 24,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 73567.9391988237,
+          "total_reward": 73568.97253215704,
+          "handover": false,
+          "training_loss": 4429080576.0
+        },
+        {
+          "step": 25,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 60244.31025515772,
+          "total_reward": 60245.34358849105,
+          "handover": false,
+          "training_loss": 8939160576.0
+        },
+        {
+          "step": 26,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 86443.8011663262,
+          "total_reward": 86444.83449965954,
+          "handover": false,
+          "training_loss": 9506717696.0
+        },
+        {
+          "step": 27,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 35471.81540718767,
+          "total_reward": 35472.848740521,
+          "handover": false,
+          "training_loss": 3748196352.0
+        },
+        {
+          "step": 28,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 67436.8649109477,
+          "total_reward": 67437.89824428104,
+          "handover": false,
+          "training_loss": 7982800896.0
+        },
+        {
+          "step": 29,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 50393.0778720057,
+          "total_reward": 50394.11120533903,
+          "handover": false,
+          "training_loss": 12985411584.0
+        },
+        {
+          "step": 30,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 136304.22615681382,
+          "total_reward": 136305.25949014715,
+          "handover": false,
+          "training_loss": 9970131968.0
+        },
+        {
+          "step": 31,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 112144.50865725799,
+          "total_reward": 112145.54199059133,
+          "handover": false,
+          "training_loss": 12635656192.0
+        },
+        {
+          "step": 32,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 206705.8796974554,
+          "total_reward": 206706.91303078874,
+          "handover": false,
+          "training_loss": 6129292800.0
+        },
+        {
+          "step": 33,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 167328.69522425302,
+          "total_reward": 167329.72855758635,
+          "handover": false,
+          "training_loss": 8549686784.0
+        },
+        {
+          "step": 34,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 157968.3104243346,
+          "total_reward": 157969.34375766793,
+          "handover": false,
+          "training_loss": 5135995392.0
+        },
+        {
+          "step": 35,
+          "v2i_action": "max_weighted_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 109042.02046865334,
+          "total_reward": 109043.05380198668,
+          "handover": false,
+          "training_loss": 4037766400.0
+        },
+        {
+          "step": 36,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 49537.36196372165,
+          "total_reward": 49538.39529705498,
+          "handover": false,
+          "training_loss": 18787328000.0
+        },
+        {
+          "step": 37,
+          "v2i_action": "adaptive_handover",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 56444.50379938156,
+          "total_reward": 56445.53713271489,
+          "handover": false,
+          "training_loss": 12271772672.0
+        },
+        {
+          "step": 38,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 39463.35584666883,
+          "total_reward": 39464.38918000216,
+          "handover": false,
+          "training_loss": 23593871360.0
+        },
+        {
+          "step": 39,
+          "v2i_action": "max_data_rate",
+          "base_reward": 1.0333333333333339,
+          "v2i_reward": 61033.58934598004,
+          "total_reward": 61034.622679313376,
+          "handover": false,
+          "training_loss": 17503842304.0
+        }
+      ],
+      "action_counts": {
+        "max_weighted_rate": 19,
+        "adaptive_handover": 12,
+        "max_data_rate": 9
+      }
+    }
+  ],
+  "statistics": {
+    "avg_total_reward": 2917858.108918292,
+    "std_total_reward": 258218.35992094534,
+    "avg_v2i_reward": 2917815.66769629,
+    "std_v2i_reward": 258218.0149468236,
+    "avg_handover_rate": 0.215,
+    "avg_steps": 40.0,
+    "action_diversity": {
+      "max_weighted_rate": 262,
+      "adaptive_handover": 164,
+      "max_data_rate": 174
+    },
+    "ddqn_stats": {
+      "total_decisions": 600,
+      "handover_count": 0,
+      "handover_rate": 0.0,
+      "epsilon": 0.05772088009124167,
+      "replay_buffer_size": 600,
+      "training_losses": [
+        10243997696.0,
+        5002001920.0,
+        4981143552.0,
+        9220177920.0,
+        18259779584.0,
+        8413601792.0,
+        3180665856.0,
+        9122592768.0,
+        8550299136.0,
+        14225121280.0,
+        15753298944.0,
+        10829497344.0,
+        7418879488.0,
+        14451469312.0,
+        6727968256.0,
+        14924457984.0,
+        9503839232.0,
+        8910629888.0,
+        7426927616.0,
+        12271108096.0,
+        5123170816.0,
+        13946186752.0,
+        2984023296.0,
+        9550718976.0,
+        12957581312.0,
+        8889823232.0,
+        4520534016.0,
+        2914821888.0,
+        20395266048.0,
+        20485330944.0,
+        6867487744.0,
+        23431680000.0,
+        10722011136.0,
+        15397825536.0,
+        15695577088.0,
+        14156158976.0,
+        8047450624.0,
+        12797717504.0,
+        15154173952.0,
+        12924385280.0,
+        11012270080.0,
+        15220339712.0,
+        5739199488.0,
+        7920417792.0,
+        10778869760.0,
+        11560419328.0,
+        7037445120.0,
+        8653006848.0,
+        16821522432.0,
+        4808546304.0,
+        6459404800.0,
+        16938649600.0,
+        21147717632.0,
+        6374705152.0,
+        9867454464.0,
+        35290607616.0,
+        6575658496.0,
+        21883729920.0,
+        9492769792.0,
+        6056934400.0,
+        26326581248.0,
+        23765549056.0,
+        19274680320.0,
+        9899073536.0,
+        13315543040.0,
+        9063184384.0,
+        6194619392.0,
+        16966406144.0,
+        28116062208.0,
+        6665366016.0,
+        15272615936.0,
+        6073515008.0,
+        14703362048.0,
+        7606593536.0,
+        16627241984.0,
+        22921560064.0,
+        12309656576.0,
+        4689325568.0,
+        21707259904.0,
+        8993908736.0,
+        16439619584.0,
+        18675417088.0,
+        9560863744.0,
+        24014305280.0,
+        4429080576.0,
+        8939160576.0,
+        9506717696.0,
+        3748196352.0,
+        7982800896.0,
+        12985411584.0,
+        9970131968.0,
+        12635656192.0,
+        6129292800.0,
+        8549686784.0,
+        5135995392.0,
+        4037766400.0,
+        18787328000.0,
+        12271772672.0,
+        23593871360.0,
+        17503842304.0
+      ],
+      "avg_q": "503238.28"
+    }
+  }
+}
